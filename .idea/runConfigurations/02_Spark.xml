@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="02 Spark Clean Analyze Train" type="PythonConfigurationType" factoryName="Python">
+    <module name="bigdata" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="SCRIPT_NAME" value="jobs.pipeline" />
+    <option name="MODULE_MODE" value="true" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <envs><env name="PYTHONUNBUFFERED" value="1" /><env name="PYTHONUTF8" value="1" /></envs>
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-09-14T12:07:53.095920+00:00",
+  "endpoint": "http://192.168.203.128:9870",
+  "source": "D:\\workspace\\第二阶段\\04.数据集最终版",
+  "remote": "/evcharge-stage2/ods",
+  "mode": "local-spark-webhdfs-storage",
+  "files": [
+    {
+      "path": "dsv13r2.csv",
+      "remote": "/evcharge-stage2/ods/dsv13r2.csv",
+      "bytes": 102279,
+      "local_sha256": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8",
+      "download_sha256": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "nvv2t.csv",
+      "remote": "/evcharge-stage2/ods/nvv2t.csv",
+      "bytes": 420477,
+      "local_sha256": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+      "download_sha256": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "nvv2t_md_end.csv",
+      "remote": "/evcharge-stage2/ods/nvv2t_md_end.csv",
+      "bytes": 13018,
+      "local_sha256": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+      "download_sha256": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+      "verified": true,
+      "action": "uploaded"
+    }
+  ],
+  "completed_at": "2026-09-14T12:07:53.482259+00:00",
+  "verified_count": 3,
+  "total_bytes": 535774
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "execution": "Windows local Spark; inputs downloaded from Ubuntu HDFS via WebHDFS",
+  "spark_direct_hdfs_rpc": false,
+  "endpoint": "http://192.168.203.128:9870",
+  "remote_source": "/evcharge-stage2/ods",
+  "baseline_run_id": "20260914T120724782833Z",
+  "hdfs_input_run_id": "20260914T120951041564Z",
+  "input_sha256": {
+    "nvv2t.csv": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+    "nvv2t_md_end.csv": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+    "dsv13r2.csv": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8"
+  },
+  "compared_sections": [
+    "kpis",
+    "charts",
+    "quality",
+    "model"
+  ],
+  "ignored_metadata": [
+    "run_id",
+    "updated_at"
+  ],
+  "numeric_tolerance": {
+    "relative": 1e-09,
+    "absolute": 1e-08
+  },
+  "array_order": "rows compared after sorting by string/integer identity fields",
+  "differences": [],
+  "note": "Parquet/model binary bytes across independent runs are not required to match; synced files are separately byte-verified."
+}

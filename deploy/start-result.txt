@@ -1,0 +1,81 @@
+#Wed Sep 16 08:22:07 CST 2026
+namespaceID=1349493153
+clusterID=CID-631698cc-6116-45b9-be4e-e0ec7de1cce6
+cTime=1789139306745
+storageType=NAME_NODE
+blockpoolID=BP-1843569536-127.0.1.1-1789139306745
+layoutVersion=-65
+Safe mode is OFF
+Configured Capacity: 526762934272 (490.59 GB)
+Present Capacity: 476197351424 (443.49 GB)
+DFS Remaining: 476185329664 (443.48 GB)
+DFS Used: 12021760 (11.46 MB)
+DFS Used%: 0.00%
+Replicated Blocks:
+	Under replicated blocks: 0
+	Blocks with corrupt replicas: 0
+	Missing blocks: 0
+	Missing blocks (with replication factor 1): 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+Erasure Coded Block Groups: 
+	Low redundancy block groups: 0
+	Block groups with corrupt internal blocks: 0
+	Missing block groups: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+
+-------------------------------------------------
+Live datanodes (1):
+
+Name: 127.0.0.1:9866 (localhost)
+Hostname: bitdev
+Decommission Status : Normal
+Configured Capacity: 526762934272 (490.59 GB)
+DFS Used: 12021760 (11.46 MB)
+Non DFS Used: 23732314112 (22.10 GB)
+DFS Remaining: 476185329664 (443.48 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 90.40%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Wed Sep 16 17:56:16 CST 2026
+Last Block Report: Wed Sep 16 17:55:40 CST 2026
+Num of Blocks: 214
+
+
+Found 4 items
+drwxr-xr-x   - bit supergroup          0 2026-09-11 23:12 /codex-validation-20260911231109-4106
+drwxr-xr-x   - bit supergroup          0 2026-09-11 23:14 /codex-validation-20260911231402-5113
+drwxr-xr-x   - bit supergroup          0 2026-09-16 08:24 /evcharge-stage2
+drwx------   - bit supergroup          0 2026-09-11 23:11 /tmp
+Found 6 items
+drwxr-xr-x   - bit supergroup          0 2026-09-15 12:41 /evcharge-stage2/ads
+drwxr-xr-x   - bit supergroup          0 2026-09-15 12:41 /evcharge-stage2/dwd
+drwxr-xr-x   - bit supergroup          0 2026-09-15 12:41 /evcharge-stage2/models
+drwxr-xr-x   - bit supergroup          0 2026-09-15 12:41 /evcharge-stage2/ods
+drwxr-xr-x   - bit supergroup          0 2026-09-15 12:41 /evcharge-stage2/reports
+drwxr-xr-x   - bit supergroup          0 2026-09-16 08:25 /evcharge-stage2/review-20260916-0825
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens33            UP             192.168.203.128/24 fe80::4ce0:e588:1ff7:e94c/64 
+4004 Jps
+3638 SecondaryNameNode
+3494 NameNode
+3561 DataNode
+State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+LISTEN 0      128          0.0.0.0:22         0.0.0.0:*          
+LISTEN 0      128        127.0.0.1:9000       0.0.0.0:*          
+LISTEN 0      128        127.0.0.1:631        0.0.0.0:*          
+LISTEN 0      128        127.0.0.1:34299      0.0.0.0:*          
+LISTEN 0      128          0.0.0.0:9867       0.0.0.0:*          
+LISTEN 0      128          0.0.0.0:9866       0.0.0.0:*          
+LISTEN 0      4096         0.0.0.0:9864       0.0.0.0:*          
+LISTEN 0      128          0.0.0.0:9870       0.0.0.0:*          
+LISTEN 0      128          0.0.0.0:9868       0.0.0.0:*          
+LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+LISTEN 0      128             [::]:22            [::]:*          
+LISTEN 0      128            [::1]:631           [::]:*          

@@ -1,0 +1,330 @@
+{
+  "before": {
+    "sessions": 3395,
+    "stations": 105,
+    "telemetry": 1594
+  },
+  "after": {
+    "sessions": 3339,
+    "stations": 105,
+    "telemetry": 0
+  },
+  "rules": [
+    {
+      "id": "R01",
+      "issue": "完全重复会话",
+      "count": 0,
+      "action": "全字段相同才去重；不同内容的同ID记录隔离核查"
+    },
+    {
+      "id": "R02",
+      "issue": "年份0014/0015规范化",
+      "count": 3395,
+      "action": "依据星期、小时和时长一致性解释为2014/2015；保留原值，不宣称外部来源已确认"
+    },
+    {
+      "id": "R05",
+      "issue": "零电量会话",
+      "count": 55,
+      "action": "隔离到rejected，不纳入有效订单和平均值"
+    },
+    {
+      "id": "R06",
+      "issue": "零费用会话",
+      "count": 3016,
+      "action": "有效订单标记免费；按开始/结束时段分别统计免费、付费次数及费用"
+    },
+    {
+      "id": "R07",
+      "issue": "连接时长超过24小时",
+      "count": 1,
+      "action": "按教师需求隔离到rejected，不纳入有效订单和时长均值"
+    },
+    {
+      "id": "R03",
+      "issue": "关键字段与主键冲突",
+      "count": 56,
+      "action": "隔离到rejected，不静默修补目标值"
+    },
+    {
+      "id": "R04",
+      "issue": "日期衍生字段不一致",
+      "count": 0,
+      "action": "保留标记；日期年份解释必须通过交叉校验"
+    },
+    {
+      "id": "C12",
+      "issue": "站点设备数/主键无效",
+      "count": 0,
+      "action": "隔离非运营或无效站点；关联会话不进入有效订单"
+    },
+    {
+      "id": "C13",
+      "issue": "站名为空",
+      "count": 0,
+      "action": "补为未命名站点（站点ID），保留缺失标记"
+    },
+    {
+      "id": "C14",
+      "issue": "地址为空",
+      "count": 0,
+      "action": "补为地址未知；不伪造地理位置"
+    },
+    {
+      "id": "C15",
+      "issue": "站点设施编码映射",
+      "count": 105,
+      "action": "1交流、2直流、3交直流一体；其余保留未知类型及原编码"
+    },
+    {
+      "id": "C16",
+      "issue": "站点缺失或未运营的会话",
+      "count": 0,
+      "action": "隔离会话，保留站点及会话拒绝记录"
+    },
+    {
+      "id": "R08",
+      "issue": "站点关联缺失或口径冲突",
+      "count": 0,
+      "action": "以唯一站点键关联，冲突则停止发布"
+    },
+    {
+      "id": "C09",
+      "issue": "开始/结束小时转时段",
+      "count": 3339,
+      "action": "新增start_period/end_period；采用公开的教学时段划分，不用于真实计费"
+    },
+    {
+      "id": "C10",
+      "issue": "会话设施编码映射",
+      "count": 3339,
+      "action": "1交流、2直流、3交直流一体；保留原编码和未知编码"
+    },
+    {
+      "id": "R09",
+      "issue": "时长IQR候选异常",
+      "count": 57,
+      "action": "统计异常不等于错误；保留并公开阈值，模型单独评估"
+    },
+    {
+      "id": "R10",
+      "issue": "电池采样时间精度丢失",
+      "count": 1594,
+      "action": "保留原始科学计数法文本，不恢复伪造时间，不绘制连续充电曲线"
+    },
+    {
+      "id": "R11",
+      "issue": "没有电池记录的会话",
+      "count": 1764,
+      "action": "不为会话补造电池记录；电池字段不进入预测"
+    },
+    {
+      "id": "C01",
+      "issue": "充电电流为负或无效",
+      "count": 1594,
+      "action": "按教师需求隔离，保留原始字段和逐条原因；不取绝对值或填造测量值"
+    },
+    {
+      "id": "C02",
+      "issue": "SOC不在0至100内或无效",
+      "count": 0,
+      "action": "按教师需求隔离，保留原始字段和逐条原因；不取绝对值或填造测量值"
+    },
+    {
+      "id": "C03",
+      "issue": "温度不在-40至85℃内或无效",
+      "count": 0,
+      "action": "按教师需求隔离，保留原始字段和逐条原因；不取绝对值或填造测量值"
+    },
+    {
+      "id": "C04",
+      "issue": "剩余能量/容量为负或无效",
+      "count": 0,
+      "action": "按教师需求隔离，保留原始字段和逐条原因；不取绝对值或填造测量值"
+    },
+    {
+      "id": "C05",
+      "issue": "电池包电压非正或无效",
+      "count": 0,
+      "action": "按教师需求隔离，保留原始字段和逐条原因；不取绝对值或填造测量值"
+    },
+    {
+      "id": "R12",
+      "issue": "电池字段单位/符号口径",
+      "count": 1594,
+      "action": "按教师需求负电流不进入有效充电采样；保留原件，kw字段不换算、不参与核心电量指标"
+    }
+  ],
+  "summary": "按教师清洗需求筛选有效订单、站点和电池采样；原始数据及拒绝原因保留。免费订单单独标记，设施编码中文化，时段采用教学假设。",
+  "rejected": {
+    "sessions": 56,
+    "stations": 0,
+    "telemetry": 1594
+  },
+  "time_period_definition": {
+    "basis": "教学假设；按数据集本地小时划分，非实际电价政策；仅按开始/结束小时分类，不拆分跨时段电量或费用",
+    "hours": {
+      "低谷": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        23
+      ],
+      "平时": [
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "高峰": [
+        10,
+        11,
+        17,
+        18,
+        21,
+        22
+      ],
+      "尖峰": [
+        19,
+        20
+      ]
+    }
+  },
+  "fee_by_period": {
+    "start_period": [
+      {
+        "start_period": "低谷",
+        "fee_type": "免费",
+        "sessions": 17,
+        "fees": 0.0,
+        "avg_fee": 0.0
+      },
+      {
+        "start_period": "尖峰",
+        "fee_type": "付费",
+        "sessions": 3,
+        "fees": 1.5,
+        "avg_fee": 0.5
+      },
+      {
+        "start_period": "尖峰",
+        "fee_type": "免费",
+        "sessions": 165,
+        "fees": 0.0,
+        "avg_fee": 0.0
+      },
+      {
+        "start_period": "平时",
+        "fee_type": "付费",
+        "sessions": 172,
+        "fees": 202.83,
+        "avg_fee": 1.17924419
+      },
+      {
+        "start_period": "平时",
+        "fee_type": "免费",
+        "sessions": 1520,
+        "fees": 0.0,
+        "avg_fee": 0.0
+      },
+      {
+        "start_period": "高峰",
+        "fee_type": "付费",
+        "sessions": 202,
+        "fees": 193.69,
+        "avg_fee": 0.95886139
+      },
+      {
+        "start_period": "高峰",
+        "fee_type": "免费",
+        "sessions": 1260,
+        "fees": 0.0,
+        "avg_fee": 0.0
+      }
+    ],
+    "end_period": [
+      {
+        "end_period": "低谷",
+        "fee_type": "付费",
+        "sessions": 10,
+        "fees": 16.16,
+        "avg_fee": 1.616
+      },
+      {
+        "end_period": "低谷",
+        "fee_type": "免费",
+        "sessions": 28,
+        "fees": 0.0,
+        "avg_fee": 0.0
+      },
+      {
+        "end_period": "尖峰",
+        "fee_type": "付费",
+        "sessions": 69,
+        "fees": 86.43,
+        "avg_fee": 1.2526087
+      },
+      {
+        "end_period": "尖峰",
+        "fee_type": "免费",
+        "sessions": 611,
+        "fees": 0.0,
+        "avg_fee": 0.0
+      },
+      {
+        "end_period": "平时",
+        "fee_type": "付费",
+        "sessions": 142,
+        "fees": 93.73,
+        "avg_fee": 0.66007042
+      },
+      {
+        "end_period": "平时",
+        "fee_type": "免费",
+        "sessions": 1477,
+        "fees": 0.0,
+        "avg_fee": 0.0
+      },
+      {
+        "end_period": "高峰",
+        "fee_type": "付费",
+        "sessions": 156,
+        "fees": 201.7,
+        "avg_fee": 1.29294872
+      },
+      {
+        "end_period": "高峰",
+        "fee_type": "免费",
+        "sessions": 846,
+        "fees": 0.0,
+        "avg_fee": 0.0
+      }
+    ]
+  },
+  "duration_iqr": {
+    "q1": 2.143055556,
+    "q3": 3.557777778,
+    "lower": 0.020972223000000234,
+    "upper": 5.679861111
+  },
+  "reconciliation": {
+    "dimensions_checked": 10,
+    "all_session_totals_match": true,
+    "all_energy_totals_match": true
+  },
+  "limitations": [
+    "没有外部来源证据，不能声称采集准确性已得到验证",
+    "历史教学数据不能反映当前站点运营状态",
+    "费用币种未知；设施编码4等未定义值保留未知标签",
+    "负电流按教师需求隔离；有效电池数据为空时不生成电池统计",
+    "时段划分是教学假设，免费不等于零电量，零费用不改变总费用求和"
+  ]
+}

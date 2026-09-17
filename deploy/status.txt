@@ -1,0 +1,22 @@
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens33            UP             192.168.203.128/24 fe80::20c:29ff:fe77:5f58/64 
+   3897       01:56 /opt/module/jdk1.8.0_261/bin/java -Dproc_namenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/opt/module/hadoop-3.2.1/logs -Dyarn.log.file=hadoop-bit-namenode-bitdev.log -Dyarn.home.dir=/opt/module/hadoop-3.2.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/opt/module/hadoop-3.2.1/lib/native -Dhadoop.log.dir=/opt/module/hadoop-3.2.1/logs -Dhadoop.log.file=hadoop-bit-namenode-bitdev.log -Dhadoop.home.dir=/opt/module/hadoop-3.2.1 -Dhadoop.id.str=bit -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.NameNode
+   3961       01:54 /opt/module/jdk1.8.0_261/bin/java -Dproc_datanode -Djava.net.preferIPv4Stack=true -Dhadoop.security.logger=ERROR,RFAS -Dyarn.log.dir=/opt/module/hadoop-3.2.1/logs -Dyarn.log.file=hadoop-bit-datanode-bitdev.log -Dyarn.home.dir=/opt/module/hadoop-3.2.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/opt/module/hadoop-3.2.1/lib/native -Dhadoop.log.dir=/opt/module/hadoop-3.2.1/logs -Dhadoop.log.file=hadoop-bit-datanode-bitdev.log -Dhadoop.home.dir=/opt/module/hadoop-3.2.1 -Dhadoop.id.str=bit -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.datanode.DataNode
+   4032       01:51 /opt/module/jdk1.8.0_261/bin/java -Dproc_secondarynamenode -Djava.net.preferIPv4Stack=true -Dhdfs.audit.logger=INFO,NullAppender -Dhadoop.security.logger=INFO,RFAS -Dyarn.log.dir=/opt/module/hadoop-3.2.1/logs -Dyarn.log.file=hadoop-bit-secondarynamenode-bitdev.log -Dyarn.home.dir=/opt/module/hadoop-3.2.1 -Dyarn.root.logger=INFO,console -Djava.library.path=/opt/module/hadoop-3.2.1/lib/native -Dhadoop.log.dir=/opt/module/hadoop-3.2.1/logs -Dhadoop.log.file=hadoop-bit-secondarynamenode-bitdev.log -Dhadoop.home.dir=/opt/module/hadoop-3.2.1 -Dhadoop.id.str=bit -Dhadoop.root.logger=INFO,RFA -Dhadoop.policy.file=hadoop-policy.xml org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode
+   4831       00:00 /bin/bash /tmp/evcharge-stage2-deploy.sh
+   4834       00:00 grep -E java|evcharge-stage2
+State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+LISTEN 0      128        127.0.0.1:631        0.0.0.0:*          
+LISTEN 0      128        127.0.0.1:9000       0.0.0.0:*          
+LISTEN 0      128          0.0.0.0:22         0.0.0.0:*          
+LISTEN 0      128        127.0.0.1:40075      0.0.0.0:*          
+LISTEN 0      4096         0.0.0.0:9864       0.0.0.0:*          
+LISTEN 0      128          0.0.0.0:9867       0.0.0.0:*          
+LISTEN 0      128          0.0.0.0:9866       0.0.0.0:*          
+LISTEN 0      128          0.0.0.0:9868       0.0.0.0:*          
+LISTEN 0      128          0.0.0.0:9870       0.0.0.0:*          
+LISTEN 0      128            [::1]:631           [::]:*          
+LISTEN 0      128             [::]:22            [::]:*          
+tail: option used in invalid context -- 1
+/tmp/evcharge-stage2-deploy.sh: line 7: curl: command not found

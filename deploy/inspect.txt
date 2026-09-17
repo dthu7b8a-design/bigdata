@@ -1,0 +1,134 @@
+2026-09-14T15:57:53+08:00
+uid=1000(bit) gid=1000(bit) groups=1000(bit),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),122(lpadmin),135(lxd),136(sambashare)
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens33            DOWN           
+drwxr-xr-x 11 bit bit 4096  9月 11 23:08 /opt/module/hadoop-3.2.1
+drwxr-xr-x  8 bit bit 4096  6月 18  2020 /opt/module/jdk1.8.0_261
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://localhost:9000</value>
+  </property>
+  <property>
+    <name>hadoop.tmp.dir</name>
+    <value>/opt/module/hadoop-3.2.1/data/tmp</value>
+  </property>
+</configuration>
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <property>
+    <name>dfs.replication</name>
+    <value>1</value>
+  </property>
+  <property>
+    <name>dfs.namenode.name.dir</name>
+    <value>file:///opt/module/hadoop-3.2.1/data/namenode</value>
+  </property>
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file:///opt/module/hadoop-3.2.1/data/datanode</value>
+  </property>
+  <property>
+    <name>dfs.namenode.http-address</name>
+    <value>0.0.0.0:9870</value>
+  </property>
+  <property>
+    <name>dfs.permissions.enabled</name>
+    <value>false</value>
+  </property>
+</configuration>
+## THIS FILE ACTS AS THE MASTER FILE FOR ALL HADOOP PROJECTS.
+## SETTINGS HERE WILL BE READ BY ALL HADOOP COMMANDS.  THEREFORE,
+## {YARN_xyz|HDFS_xyz} > HADOOP_xyz > hard-coded defaults
+#  JAVA_HOME=/usr/java/testing hdfs dfs -ls
+# Generic settings for HADOOP
+# Technically, the only required environment variable is JAVA_HOME.
+# export JAVA_HOME=
+# export HADOOP_HOME=
+# export HADOOP_CONF_DIR=${HADOOP_HOME}/etc/hadoop
+# export HADOOP_HEAPSIZE_MAX=
+# export HADOOP_HEAPSIZE_MIN=
+# export HADOOP_JAAS_DEBUG=true
+# export HADOOP_OPTS="-Djava.net.preferIPv4Stack=true"
+# export HADOOP_OPTS="-Djava.net.preferIPv4Stack=true -Dsun.security.krb5.debug=true -Dsun.security.spnego.debug"
+export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
+# and clients (i.e., hdfs dfs -blah).  These get appended to HADOOP_OPTS for
+# export HADOOP_CLIENT_OPTS=""
+# export HADOOP_CLASSPATH="/some/cool/path/on/your/machine"
+# Should HADOOP_CLASSPATH be first in the official CLASSPATH?
+# export HADOOP_USER_CLASSPATH_FIRST="yes"
+# If HADOOP_USE_CLIENT_CLASSLOADER is set, the classpath along
+# is utilized. If it is set, HADOOP_CLASSPATH and
+# HADOOP_USER_CLASSPATH_FIRST are ignored.
+# export HADOOP_USE_CLIENT_CLASSLOADER=true
+# HADOOP_CLIENT_CLASSLOADER_SYSTEM_CLASSES overrides the default definition of
+# system classes for the client classloader when HADOOP_USE_CLIENT_CLASSLOADER
+# export HADOOP_CLIENT_CLASSLOADER_SYSTEM_CLASSES="-org.apache.hadoop.UserClass,java.,javax.,org.apache.hadoop."
+# export HADOOP_OPTIONAL_TOOLS="hadoop-aliyun,hadoop-openstack,hadoop-azure,hadoop-azure-datalake,hadoop-aws,hadoop-kafka"
+# export HADOOP_SSH_OPTS="-o BatchMode=yes -o StrictHostKeyChecking=no -o ConnectTimeout=10s"
+# export HADOOP_SSH_PARALLEL=10
+# export HADOOP_WORKERS="${HADOOP_CONF_DIR}/workers"
+# ${HADOOP_HOME}/logs by default.
+# export HADOOP_LOG_DIR=${HADOOP_HOME}/logs
+# export HADOOP_IDENT_STRING=$USER
+# export HADOOP_STOP_TIMEOUT=5
+# export HADOOP_PID_DIR=/tmp
+# export HADOOP_ROOT_LOGGER=INFO,console
+# export HADOOP_DAEMON_ROOT_LOGGER=INFO,RFA
+# export HADOOP_SECURITY_LOGGER=INFO,NullAppender
+# export HADOOP_NICENESS=0
+# export HADOOP_POLICYFILE="hadoop-policy.xml"
+# export HADOOP_GC_SETTINGS="-verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps"
+#export HADOOP_SECURE_PID_DIR=${HADOOP_PID_DIR}
+# export HADOOP_SECURE_LOG=${HADOOP_LOG_DIR}
+# When running a secure daemon, the default value of HADOOP_IDENT_STRING
+# replace HADOOP_IDENT_STRING with HADOOP_xx_SECURE_USER.  If one wants
+# to keep HADOOP_IDENT_STRING untouched, then uncomment this line.
+# export HADOOP_SECURE_IDENT_PRESERVE="true"
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# export HDFS_NAMENODE_OPTS="${HADOOP_GC_SETTINGS} -Xloggc:${HADOOP_LOG_DIR}/gc-rm.log-$(date +'%Y%m%d%H%M')"
+# export HDFS_NAMENODE_OPTS="-verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -Xloggc:${HADOOP_LOG_DIR}/gc-rm.log-$(date +'%Y%m%d%H%M')"
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# These options will be appended to the options specified as HADOOP_OPTS
+# and therefore may override any similar flags set in HADOOP_OPTS
+# export HADOOP_ENABLE_BUILD_PATHS="true"
+export JAVA_HOME=/opt/module/jdk1.8.0_261
+export HADOOP_HOME=/opt/module/hadoop-3.2.1
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+export HADOOP_COMMON_HOME=$HADOOP_HOME
+export HADOOP_HDFS_HOME=$HADOOP_HOME
+export HADOOP_YARN_HOME=$HADOOP_HOME
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+/opt/module/hadoop-3.2.1/data/namenode/current/VERSION
+/opt/module/hadoop-3.2.1/data/datanode/current/VERSION
+State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+LISTEN 0      4096   127.0.0.53%lo:53        0.0.0.0:*          
+LISTEN 0      128        127.0.0.1:631       0.0.0.0:*          
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*          
+LISTEN 0      128            [::1]:631          [::]:*          
+LISTEN 0      128             [::]:22           [::]:*          
+DEVICE  TYPE      STATE      CONNECTION 
+ens33   ethernet  unmanaged  --         
+lo      loopback  unmanaged  --         
+sudo: a password is required

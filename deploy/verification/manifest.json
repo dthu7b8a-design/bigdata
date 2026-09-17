@@ -1,0 +1,1821 @@
+{
+  "started_at": "2026-09-16T09:58:07.861944+00:00",
+  "endpoint": "http://192.168.203.128:9870",
+  "source": "D:\\workspace\\第二阶段\\bigdata\\data",
+  "remote": "/evcharge-stage2",
+  "mode": "local-spark-webhdfs-storage",
+  "files": [
+    {
+      "path": "ads/20260914T075923514170Z/dashboard.json",
+      "remote": "/evcharge-stage2/ads/20260914T075923514170Z/dashboard.json",
+      "bytes": 643871,
+      "local_sha256": "94992c1b7e676df712ba53184fd7f104f6dd1ca05b78b89dde5154a8bc397b87",
+      "download_sha256": "94992c1b7e676df712ba53184fd7f104f6dd1ca05b78b89dde5154a8bc397b87",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ads/20260914T120724782833Z/dashboard.json",
+      "remote": "/evcharge-stage2/ads/20260914T120724782833Z/dashboard.json",
+      "bytes": 643861,
+      "local_sha256": "fcd403ee46e8fb4c8ef1cf32372fa40dbd93797445b51d053539148dd631188c",
+      "download_sha256": "fcd403ee46e8fb4c8ef1cf32372fa40dbd93797445b51d053539148dd631188c",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ads/20260915T030549196238Z/dashboard.json",
+      "remote": "/evcharge-stage2/ads/20260915T030549196238Z/dashboard.json",
+      "bytes": 643861,
+      "local_sha256": "b7a583a1f56f15938f670ea5563dbada972f8129b4e6a774c07eab5f95d78075",
+      "download_sha256": "b7a583a1f56f15938f670ea5563dbada972f8129b4e6a774c07eab5f95d78075",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ads/20260915T082157813150Z/dashboard.json",
+      "remote": "/evcharge-stage2/ads/20260915T082157813150Z/dashboard.json",
+      "bytes": 642611,
+      "local_sha256": "72707ea1a80605775e6968d99549f55ff30cd902af01d150a2f2d099368262b9",
+      "download_sha256": "72707ea1a80605775e6968d99549f55ff30cd902af01d150a2f2d099368262b9",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "ads/dashboard.json",
+      "remote": "/evcharge-stage2/ads/dashboard.json",
+      "bytes": 642611,
+      "local_sha256": "72707ea1a80605775e6968d99549f55ff30cd902af01d150a2f2d099368262b9",
+      "download_sha256": "72707ea1a80605775e6968d99549f55ff30cd902af01d150a2f2d099368262b9",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/rejected/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/rejected/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/rejected/.part-00000-bcee5d30-c3f8-4183-a755-b8048052f42e-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/rejected/.part-00000-bcee5d30-c3f8-4183-a755-b8048052f42e-c000.snappy.parquet.crc",
+      "bytes": 28,
+      "local_sha256": "03927473e92d1e697f7001b48b5086e09bddeda5fda1f12b9ab3c668c9387fc3",
+      "download_sha256": "03927473e92d1e697f7001b48b5086e09bddeda5fda1f12b9ab3c668c9387fc3",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/rejected/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/rejected/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/rejected/part-00000-bcee5d30-c3f8-4183-a755-b8048052f42e-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/rejected/part-00000-bcee5d30-c3f8-4183-a755-b8048052f42e-c000.snappy.parquet",
+      "bytes": 2451,
+      "local_sha256": "080d13a39e0f27a8abaf45b711a012751e981b4be5bb1786ae3e5cdc473a0562",
+      "download_sha256": "080d13a39e0f27a8abaf45b711a012751e981b4be5bb1786ae3e5cdc473a0562",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/sessions/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/sessions/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/sessions/.part-00000-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/sessions/.part-00000-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet.crc",
+      "bytes": 572,
+      "local_sha256": "8b4fc87e529a29fe12e8fbef2d298bb366b1af23375d51d90d2d542dadcedc18",
+      "download_sha256": "8b4fc87e529a29fe12e8fbef2d298bb366b1af23375d51d90d2d542dadcedc18",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/sessions/.part-00001-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/sessions/.part-00001-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet.crc",
+      "bytes": 544,
+      "local_sha256": "a2a2926c55fc76d99160e6d3a442305bee0848b2c1b0b3aca616554070f59406",
+      "download_sha256": "a2a2926c55fc76d99160e6d3a442305bee0848b2c1b0b3aca616554070f59406",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/sessions/.part-00002-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/sessions/.part-00002-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet.crc",
+      "bytes": 556,
+      "local_sha256": "6373f283d677575427fa1a8b2857baa3ebd2b10ca5105df67a4ac2665ad11d97",
+      "download_sha256": "6373f283d677575427fa1a8b2857baa3ebd2b10ca5105df67a4ac2665ad11d97",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/sessions/.part-00003-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/sessions/.part-00003-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet.crc",
+      "bytes": 544,
+      "local_sha256": "07f165bd632ad307ffa0937e5c72f0fecddf7bcda49384afbe91aea154fc0c65",
+      "download_sha256": "07f165bd632ad307ffa0937e5c72f0fecddf7bcda49384afbe91aea154fc0c65",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/sessions/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/sessions/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/sessions/part-00000-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/sessions/part-00000-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet",
+      "bytes": 72047,
+      "local_sha256": "692aeb20375be7f434b8540d6d02cb499c6f87bb4c87a0c987478a1e120d0215",
+      "download_sha256": "692aeb20375be7f434b8540d6d02cb499c6f87bb4c87a0c987478a1e120d0215",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/sessions/part-00001-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/sessions/part-00001-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet",
+      "bytes": 68580,
+      "local_sha256": "c57e1e5c0246dac47579a0d13f37f892281d6e45dd997d73ebd1f85807b720e1",
+      "download_sha256": "c57e1e5c0246dac47579a0d13f37f892281d6e45dd997d73ebd1f85807b720e1",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/sessions/part-00002-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/sessions/part-00002-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet",
+      "bytes": 69825,
+      "local_sha256": "c8a6adf75a14c28faf7f46d04e222f71f0dc369200f74c5d25c7dbeba0ee8307",
+      "download_sha256": "c8a6adf75a14c28faf7f46d04e222f71f0dc369200f74c5d25c7dbeba0ee8307",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/sessions/part-00003-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/sessions/part-00003-b465228f-affb-430f-9a8d-aff8b1940427-c000.snappy.parquet",
+      "bytes": 68249,
+      "local_sha256": "1fad06955dc3d27682662b9e25fe635a220b00191a96a136e9dc69d0824ac35d",
+      "download_sha256": "1fad06955dc3d27682662b9e25fe635a220b00191a96a136e9dc69d0824ac35d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/stations/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/stations/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/stations/.part-00000-4410efec-8a00-40df-ba8f-5f1fa33efade-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/stations/.part-00000-4410efec-8a00-40df-ba8f-5f1fa33efade-c000.snappy.parquet.crc",
+      "bytes": 48,
+      "local_sha256": "ff6c473597b207b3b6e2375fae0ca103ccf5062349e9858cc3b72d068d26eb4d",
+      "download_sha256": "ff6c473597b207b3b6e2375fae0ca103ccf5062349e9858cc3b72d068d26eb4d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/stations/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/stations/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/stations/part-00000-4410efec-8a00-40df-ba8f-5f1fa33efade-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/stations/part-00000-4410efec-8a00-40df-ba8f-5f1fa33efade-c000.snappy.parquet",
+      "bytes": 4960,
+      "local_sha256": "914e9afd8aa5a43f482e9760ac813e7246e81e80e592ee53c2ae4088ad3176a9",
+      "download_sha256": "914e9afd8aa5a43f482e9760ac813e7246e81e80e592ee53c2ae4088ad3176a9",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/telemetry_unverified/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/telemetry_unverified/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/telemetry_unverified/.part-00000-0731f076-25a2-4aeb-a7cb-836f309cae58-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/telemetry_unverified/.part-00000-0731f076-25a2-4aeb-a7cb-836f309cae58-c000.snappy.parquet.crc",
+      "bytes": 308,
+      "local_sha256": "cf3ab17ebd8954d0342a36ae1b2934b5d582dd059a74470b0f3340ecc06e6d98",
+      "download_sha256": "cf3ab17ebd8954d0342a36ae1b2934b5d582dd059a74470b0f3340ecc06e6d98",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/telemetry_unverified/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/telemetry_unverified/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T075923514170Z/telemetry_unverified/part-00000-0731f076-25a2-4aeb-a7cb-836f309cae58-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T075923514170Z/telemetry_unverified/part-00000-0731f076-25a2-4aeb-a7cb-836f309cae58-c000.snappy.parquet",
+      "bytes": 38092,
+      "local_sha256": "992376db6c41c162f82f4a13102d6ea0421208c760e59d772df047fd715174d1",
+      "download_sha256": "992376db6c41c162f82f4a13102d6ea0421208c760e59d772df047fd715174d1",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/rejected/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/rejected/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/rejected/.part-00000-8d8d8266-e828-4980-8ea6-805879c19d9a-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/rejected/.part-00000-8d8d8266-e828-4980-8ea6-805879c19d9a-c000.snappy.parquet.crc",
+      "bytes": 28,
+      "local_sha256": "03927473e92d1e697f7001b48b5086e09bddeda5fda1f12b9ab3c668c9387fc3",
+      "download_sha256": "03927473e92d1e697f7001b48b5086e09bddeda5fda1f12b9ab3c668c9387fc3",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/rejected/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/rejected/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/rejected/part-00000-8d8d8266-e828-4980-8ea6-805879c19d9a-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/rejected/part-00000-8d8d8266-e828-4980-8ea6-805879c19d9a-c000.snappy.parquet",
+      "bytes": 2451,
+      "local_sha256": "080d13a39e0f27a8abaf45b711a012751e981b4be5bb1786ae3e5cdc473a0562",
+      "download_sha256": "080d13a39e0f27a8abaf45b711a012751e981b4be5bb1786ae3e5cdc473a0562",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/sessions/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/sessions/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/sessions/.part-00000-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/sessions/.part-00000-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet.crc",
+      "bytes": 572,
+      "local_sha256": "7060fb17e3a76bb51c1728b00d79d8f643b1d487a1a9ee2f8e6498a825eef38d",
+      "download_sha256": "7060fb17e3a76bb51c1728b00d79d8f643b1d487a1a9ee2f8e6498a825eef38d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/sessions/.part-00001-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/sessions/.part-00001-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet.crc",
+      "bytes": 544,
+      "local_sha256": "202760d6cc59c7e814bba1943887c8db0ed03c9a1a419686ad897e48cdbc97b2",
+      "download_sha256": "202760d6cc59c7e814bba1943887c8db0ed03c9a1a419686ad897e48cdbc97b2",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/sessions/.part-00002-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/sessions/.part-00002-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet.crc",
+      "bytes": 556,
+      "local_sha256": "881af046e6fd7d7a2e8bbafb29db16000ef91d1a93f8248a7985229e5a0b468b",
+      "download_sha256": "881af046e6fd7d7a2e8bbafb29db16000ef91d1a93f8248a7985229e5a0b468b",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/sessions/.part-00003-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/sessions/.part-00003-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet.crc",
+      "bytes": 544,
+      "local_sha256": "5620b65c10ecddc99a5d8bd2f233e842de442fc82a4d46685591e2cef5bf3a40",
+      "download_sha256": "5620b65c10ecddc99a5d8bd2f233e842de442fc82a4d46685591e2cef5bf3a40",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/sessions/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/sessions/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/sessions/part-00000-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/sessions/part-00000-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet",
+      "bytes": 72047,
+      "local_sha256": "5e117ca79210212d685d7d135ea25a062ef7e39e8e26c36f8265f27bcb09a27e",
+      "download_sha256": "5e117ca79210212d685d7d135ea25a062ef7e39e8e26c36f8265f27bcb09a27e",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/sessions/part-00001-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/sessions/part-00001-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet",
+      "bytes": 68580,
+      "local_sha256": "34f777273e496b2bd6df7927a6ec86805849db05efae5aefb2c2b2f04f0e7599",
+      "download_sha256": "34f777273e496b2bd6df7927a6ec86805849db05efae5aefb2c2b2f04f0e7599",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/sessions/part-00002-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/sessions/part-00002-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet",
+      "bytes": 69825,
+      "local_sha256": "ca22720b696c6f385a9f2d27911b4f724d8545fc78e70b6f4108f2d8cf05e038",
+      "download_sha256": "ca22720b696c6f385a9f2d27911b4f724d8545fc78e70b6f4108f2d8cf05e038",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/sessions/part-00003-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/sessions/part-00003-e3ec1069-c7b0-489f-a180-018e0028fb5d-c000.snappy.parquet",
+      "bytes": 68249,
+      "local_sha256": "0d6062b64dc235c82d34c6b57180b411c9d98c2ad43acb0379f765be1d46b04d",
+      "download_sha256": "0d6062b64dc235c82d34c6b57180b411c9d98c2ad43acb0379f765be1d46b04d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/stations/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/stations/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/stations/.part-00000-c7a64665-845b-4e5c-864e-d00b1aed9286-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/stations/.part-00000-c7a64665-845b-4e5c-864e-d00b1aed9286-c000.snappy.parquet.crc",
+      "bytes": 48,
+      "local_sha256": "7a9d6a4be779288bd106fc05f6b3e32878b5190824709bdfc521ffd30c1acb7e",
+      "download_sha256": "7a9d6a4be779288bd106fc05f6b3e32878b5190824709bdfc521ffd30c1acb7e",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/stations/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/stations/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/stations/part-00000-c7a64665-845b-4e5c-864e-d00b1aed9286-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/stations/part-00000-c7a64665-845b-4e5c-864e-d00b1aed9286-c000.snappy.parquet",
+      "bytes": 4960,
+      "local_sha256": "2a6539aef5558d23ff2b6ffded000ce3a8c959cf8afd5ef0e43589be627b8099",
+      "download_sha256": "2a6539aef5558d23ff2b6ffded000ce3a8c959cf8afd5ef0e43589be627b8099",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/telemetry_unverified/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/telemetry_unverified/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/telemetry_unverified/.part-00000-10a3cac8-295a-4deb-b06b-05463924fce2-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/telemetry_unverified/.part-00000-10a3cac8-295a-4deb-b06b-05463924fce2-c000.snappy.parquet.crc",
+      "bytes": 308,
+      "local_sha256": "4219117a6e60582693327c8086da270caaff184ecc8a8d10d066e0fa4e271481",
+      "download_sha256": "4219117a6e60582693327c8086da270caaff184ecc8a8d10d066e0fa4e271481",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/telemetry_unverified/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/telemetry_unverified/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260914T120724782833Z/telemetry_unverified/part-00000-10a3cac8-295a-4deb-b06b-05463924fce2-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260914T120724782833Z/telemetry_unverified/part-00000-10a3cac8-295a-4deb-b06b-05463924fce2-c000.snappy.parquet",
+      "bytes": 38092,
+      "local_sha256": "6bd1fa62ee3c1b1acb6d7f6c156a37bc2951df02a809914d6e39e227e079547c",
+      "download_sha256": "6bd1fa62ee3c1b1acb6d7f6c156a37bc2951df02a809914d6e39e227e079547c",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/rejected/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/rejected/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/rejected/.part-00000-2da618ee-0506-4c1d-87b7-5a1857af6270-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/rejected/.part-00000-2da618ee-0506-4c1d-87b7-5a1857af6270-c000.snappy.parquet.crc",
+      "bytes": 28,
+      "local_sha256": "03927473e92d1e697f7001b48b5086e09bddeda5fda1f12b9ab3c668c9387fc3",
+      "download_sha256": "03927473e92d1e697f7001b48b5086e09bddeda5fda1f12b9ab3c668c9387fc3",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/rejected/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/rejected/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/rejected/part-00000-2da618ee-0506-4c1d-87b7-5a1857af6270-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/rejected/part-00000-2da618ee-0506-4c1d-87b7-5a1857af6270-c000.snappy.parquet",
+      "bytes": 2451,
+      "local_sha256": "080d13a39e0f27a8abaf45b711a012751e981b4be5bb1786ae3e5cdc473a0562",
+      "download_sha256": "080d13a39e0f27a8abaf45b711a012751e981b4be5bb1786ae3e5cdc473a0562",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/sessions/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/sessions/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/sessions/.part-00000-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/sessions/.part-00000-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet.crc",
+      "bytes": 572,
+      "local_sha256": "508afce9699b8ca95ad093f5bab3c58d865d70cdbb8f34da0f39bd35b67ff901",
+      "download_sha256": "508afce9699b8ca95ad093f5bab3c58d865d70cdbb8f34da0f39bd35b67ff901",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/sessions/.part-00001-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/sessions/.part-00001-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet.crc",
+      "bytes": 544,
+      "local_sha256": "a50789f104ddf81520be0485c5d134a089f8261ad2e3485abd31fe5148fe0c4a",
+      "download_sha256": "a50789f104ddf81520be0485c5d134a089f8261ad2e3485abd31fe5148fe0c4a",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/sessions/.part-00002-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/sessions/.part-00002-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet.crc",
+      "bytes": 556,
+      "local_sha256": "6072e45a293ff5bbe37b7521a9cff3f8b34e786662acf9132f88a1d26ad632a3",
+      "download_sha256": "6072e45a293ff5bbe37b7521a9cff3f8b34e786662acf9132f88a1d26ad632a3",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/sessions/.part-00003-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/sessions/.part-00003-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet.crc",
+      "bytes": 544,
+      "local_sha256": "b33030854845544423f8e48ff549589de311f96e4446c6d6d7eb54ba741c1937",
+      "download_sha256": "b33030854845544423f8e48ff549589de311f96e4446c6d6d7eb54ba741c1937",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/sessions/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/sessions/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/sessions/part-00000-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/sessions/part-00000-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet",
+      "bytes": 72047,
+      "local_sha256": "d7a75c81ed77b6660151de9361401b55a7f4c26dee8112268cb8a4e598ddc84c",
+      "download_sha256": "d7a75c81ed77b6660151de9361401b55a7f4c26dee8112268cb8a4e598ddc84c",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/sessions/part-00001-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/sessions/part-00001-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet",
+      "bytes": 68580,
+      "local_sha256": "89c2cd2b9d380c4b16a70c317d9e11ba194511f1da110d7cc93039fd79cf25d6",
+      "download_sha256": "89c2cd2b9d380c4b16a70c317d9e11ba194511f1da110d7cc93039fd79cf25d6",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/sessions/part-00002-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/sessions/part-00002-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet",
+      "bytes": 69825,
+      "local_sha256": "4779cd2aa95f20b8e0e6d2786afd5370d18c4b3702ff95f9607f39c67a04ad8e",
+      "download_sha256": "4779cd2aa95f20b8e0e6d2786afd5370d18c4b3702ff95f9607f39c67a04ad8e",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/sessions/part-00003-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/sessions/part-00003-3240110a-d3c3-445c-b449-a299f8ee1ae4-c000.snappy.parquet",
+      "bytes": 68249,
+      "local_sha256": "efac6a234ffcaa6d5b692285c6df1763d729861002298735ceb69e1880a8f538",
+      "download_sha256": "efac6a234ffcaa6d5b692285c6df1763d729861002298735ceb69e1880a8f538",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/stations/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/stations/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/stations/.part-00000-098efe89-2aa7-4296-aadb-564214f9223d-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/stations/.part-00000-098efe89-2aa7-4296-aadb-564214f9223d-c000.snappy.parquet.crc",
+      "bytes": 48,
+      "local_sha256": "13e1b63fb6cc8fa9ae21df8d78ebfa7ef9985636dd94a4737ce27bb735f58db2",
+      "download_sha256": "13e1b63fb6cc8fa9ae21df8d78ebfa7ef9985636dd94a4737ce27bb735f58db2",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/stations/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/stations/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/stations/part-00000-098efe89-2aa7-4296-aadb-564214f9223d-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/stations/part-00000-098efe89-2aa7-4296-aadb-564214f9223d-c000.snappy.parquet",
+      "bytes": 4960,
+      "local_sha256": "885fbeb291f804c41ad6822cf0d8f68633d262405a44dc9a140dea2278730d3e",
+      "download_sha256": "885fbeb291f804c41ad6822cf0d8f68633d262405a44dc9a140dea2278730d3e",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/telemetry_unverified/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/telemetry_unverified/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/telemetry_unverified/.part-00000-0c0af6e6-30e8-4f9c-9938-b346e5b8d7f5-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/telemetry_unverified/.part-00000-0c0af6e6-30e8-4f9c-9938-b346e5b8d7f5-c000.snappy.parquet.crc",
+      "bytes": 308,
+      "local_sha256": "935104319d056f4f78ec19667fe3bdd3ea982e16c6d99cf1bd4e71bfb70a4e83",
+      "download_sha256": "935104319d056f4f78ec19667fe3bdd3ea982e16c6d99cf1bd4e71bfb70a4e83",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/telemetry_unverified/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/telemetry_unverified/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T030549196238Z/telemetry_unverified/part-00000-0c0af6e6-30e8-4f9c-9938-b346e5b8d7f5-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T030549196238Z/telemetry_unverified/part-00000-0c0af6e6-30e8-4f9c-9938-b346e5b8d7f5-c000.snappy.parquet",
+      "bytes": 38092,
+      "local_sha256": "39d97a2fb59e7dc8e4df2ec89e5f2008fd986b92a7d06807987f26472169a3f2",
+      "download_sha256": "39d97a2fb59e7dc8e4df2ec89e5f2008fd986b92a7d06807987f26472169a3f2",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/rejected/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/rejected/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/rejected/.part-00000-7ad45edf-8652-4384-9e23-810c61f6652d-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/rejected/.part-00000-7ad45edf-8652-4384-9e23-810c61f6652d-c000.snappy.parquet.crc",
+      "bytes": 100,
+      "local_sha256": "c53f07f26e290ac08baeb33b0ff0ec42398a4437ef8b8999a941903a8bb54120",
+      "download_sha256": "c53f07f26e290ac08baeb33b0ff0ec42398a4437ef8b8999a941903a8bb54120",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/rejected/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/rejected/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/rejected/part-00000-7ad45edf-8652-4384-9e23-810c61f6652d-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/rejected/part-00000-7ad45edf-8652-4384-9e23-810c61f6652d-c000.snappy.parquet",
+      "bytes": 11508,
+      "local_sha256": "9f8dcae150fbc51097687e364107aa5b843604356d11fce17ef4410658fbd5d3",
+      "download_sha256": "9f8dcae150fbc51097687e364107aa5b843604356d11fce17ef4410658fbd5d3",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/sessions/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/sessions/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/sessions/.part-00000-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/sessions/.part-00000-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet.crc",
+      "bytes": 588,
+      "local_sha256": "0488d9781cae70ae3f1baa96320216ec088de1d40ba2ca01a4906bdc6c4fc935",
+      "download_sha256": "0488d9781cae70ae3f1baa96320216ec088de1d40ba2ca01a4906bdc6c4fc935",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/sessions/.part-00001-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/sessions/.part-00001-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet.crc",
+      "bytes": 556,
+      "local_sha256": "442a417468af8b70b04146dfcfb5e6c9919811a51a3c79448d4679fb874452cb",
+      "download_sha256": "442a417468af8b70b04146dfcfb5e6c9919811a51a3c79448d4679fb874452cb",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/sessions/.part-00002-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/sessions/.part-00002-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet.crc",
+      "bytes": 568,
+      "local_sha256": "e2647f29d79abf4c8f2a5e44670e75a60fce6fc5f987bb4ac2aa997ed0159059",
+      "download_sha256": "e2647f29d79abf4c8f2a5e44670e75a60fce6fc5f987bb4ac2aa997ed0159059",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/sessions/.part-00003-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/sessions/.part-00003-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet.crc",
+      "bytes": 564,
+      "local_sha256": "7282d6a41b8b2b7795453bc048d467cb02d809bc4e0bfe3cb5bacd867434391a",
+      "download_sha256": "7282d6a41b8b2b7795453bc048d467cb02d809bc4e0bfe3cb5bacd867434391a",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/sessions/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/sessions/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/sessions/part-00000-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/sessions/part-00000-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet",
+      "bytes": 73774,
+      "local_sha256": "f8035e9c15f71111268ce80d6bc260d7fe3377cc72c28f3f86797b9dea6e2d3e",
+      "download_sha256": "f8035e9c15f71111268ce80d6bc260d7fe3377cc72c28f3f86797b9dea6e2d3e",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/sessions/part-00001-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/sessions/part-00001-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet",
+      "bytes": 69838,
+      "local_sha256": "d8ad142b6258a327fa7b142929c61c9e9d50ef35a3303ce1140e5d964bfabd82",
+      "download_sha256": "d8ad142b6258a327fa7b142929c61c9e9d50ef35a3303ce1140e5d964bfabd82",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/sessions/part-00002-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/sessions/part-00002-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet",
+      "bytes": 71311,
+      "local_sha256": "74bf8942a89851c468e96bb6b22b6bf99cb3c65013fd3392e8ca980250186e80",
+      "download_sha256": "74bf8942a89851c468e96bb6b22b6bf99cb3c65013fd3392e8ca980250186e80",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/sessions/part-00003-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/sessions/part-00003-0af27d2c-201e-450d-a1cb-dae4f46693c5-c000.snappy.parquet",
+      "bytes": 70856,
+      "local_sha256": "5e96bc8c434d788320d11e6231c42d6b28806e8f0ba7fafd5fb03a47ec73ab7a",
+      "download_sha256": "5e96bc8c434d788320d11e6231c42d6b28806e8f0ba7fafd5fb03a47ec73ab7a",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/stations/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/stations/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/stations/.part-00000-6871410e-bbff-4f2d-85ac-95991d80ff6b-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/stations/.part-00000-6871410e-bbff-4f2d-85ac-95991d80ff6b-c000.snappy.parquet.crc",
+      "bytes": 56,
+      "local_sha256": "ca9b4d83584ac1209796133c7303deaa85f4f6886fec102fbb62aa9c490e272a",
+      "download_sha256": "ca9b4d83584ac1209796133c7303deaa85f4f6886fec102fbb62aa9c490e272a",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/stations/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/stations/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/stations/part-00000-6871410e-bbff-4f2d-85ac-95991d80ff6b-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/stations/part-00000-6871410e-bbff-4f2d-85ac-95991d80ff6b-c000.snappy.parquet",
+      "bytes": 5869,
+      "local_sha256": "f0080ba2281304b8a483df625ba3c451e7c70f5a37b6ee6d09d0eec3ab3e07ba",
+      "download_sha256": "f0080ba2281304b8a483df625ba3c451e7c70f5a37b6ee6d09d0eec3ab3e07ba",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/stations_rejected/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/stations_rejected/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/stations_rejected/.part-00000-d5f3fb08-d231-4ac8-a0e8-cd4736a05445-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/stations_rejected/.part-00000-d5f3fb08-d231-4ac8-a0e8-cd4736a05445-c000.snappy.parquet.crc",
+      "bytes": 20,
+      "local_sha256": "00b08324c287550ae6a788b62c06825bba44c0c072b4c30fd316d61af71f06cc",
+      "download_sha256": "00b08324c287550ae6a788b62c06825bba44c0c072b4c30fd316d61af71f06cc",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/stations_rejected/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/stations_rejected/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/stations_rejected/part-00000-d5f3fb08-d231-4ac8-a0e8-cd4736a05445-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/stations_rejected/part-00000-d5f3fb08-d231-4ac8-a0e8-cd4736a05445-c000.snappy.parquet",
+      "bytes": 1171,
+      "local_sha256": "bdbf3003a40f8dee605992a10fba5ed7efa9b8af10abf72cbefd41780cfb5a69",
+      "download_sha256": "bdbf3003a40f8dee605992a10fba5ed7efa9b8af10abf72cbefd41780cfb5a69",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry/.part-00000-0117a156-6c22-4ef9-9195-4d1ffc46b414-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry/.part-00000-0117a156-6c22-4ef9-9195-4d1ffc46b414-c000.snappy.parquet.crc",
+      "bytes": 28,
+      "local_sha256": "c4ca28a779cc219e8192879e3829041b1bdc1e68f45598c77fc05719111f8050",
+      "download_sha256": "c4ca28a779cc219e8192879e3829041b1bdc1e68f45598c77fc05719111f8050",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry/part-00000-0117a156-6c22-4ef9-9195-4d1ffc46b414-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry/part-00000-0117a156-6c22-4ef9-9195-4d1ffc46b414-c000.snappy.parquet",
+      "bytes": 2175,
+      "local_sha256": "9739b18d8a4b41cb554d9d489e31bb9acb6d0b6c1831b11c42b1bc3a648e3f8d",
+      "download_sha256": "9739b18d8a4b41cb554d9d489e31bb9acb6d0b6c1831b11c42b1bc3a648e3f8d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry_rejected/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry_rejected/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry_rejected/.part-00000-ddcc4c64-273e-4faa-8fc5-2f16eafc39bf-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry_rejected/.part-00000-ddcc4c64-273e-4faa-8fc5-2f16eafc39bf-c000.snappy.parquet.crc",
+      "bytes": 464,
+      "local_sha256": "acb0e8ca6ca86c350836941985b58ed5cefacb0ae221d11cbeadbc7cbba0e8dd",
+      "download_sha256": "acb0e8ca6ca86c350836941985b58ed5cefacb0ae221d11cbeadbc7cbba0e8dd",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry_rejected/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry_rejected/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry_rejected/part-00000-ddcc4c64-273e-4faa-8fc5-2f16eafc39bf-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry_rejected/part-00000-ddcc4c64-273e-4faa-8fc5-2f16eafc39bf-c000.snappy.parquet",
+      "bytes": 57954,
+      "local_sha256": "1529823f101c9c302e906d330ef751409e3f2c3f69edd047c0e55dd182907d15",
+      "download_sha256": "1529823f101c9c302e906d330ef751409e3f2c3f69edd047c0e55dd182907d15",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry_unverified/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry_unverified/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry_unverified/.part-00000-6b44dc4b-69b0-41e5-8cfe-45c6cb800b3c-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry_unverified/.part-00000-6b44dc4b-69b0-41e5-8cfe-45c6cb800b3c-c000.snappy.parquet.crc",
+      "bytes": 308,
+      "local_sha256": "4219117a6e60582693327c8086da270caaff184ecc8a8d10d066e0fa4e271481",
+      "download_sha256": "4219117a6e60582693327c8086da270caaff184ecc8a8d10d066e0fa4e271481",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry_unverified/_SUCCESS",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry_unverified/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "dwd/20260915T082157813150Z/telemetry_unverified/part-00000-6b44dc4b-69b0-41e5-8cfe-45c6cb800b3c-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/dwd/20260915T082157813150Z/telemetry_unverified/part-00000-6b44dc4b-69b0-41e5-8cfe-45c6cb800b3c-c000.snappy.parquet",
+      "bytes": 38092,
+      "local_sha256": "6bd1fa62ee3c1b1acb6d7f6c156a37bc2951df02a809914d6e39e227e079547c",
+      "download_sha256": "6bd1fa62ee3c1b1acb6d7f6c156a37bc2951df02a809914d6e39e227e079547c",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260914T075923514170Z/linear_regression/data/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/linear_regression/data/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/linear_regression/data/.part-00000-d2390269-a074-42ea-9e69-27e6b13971c9-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/linear_regression/data/.part-00000-d2390269-a074-42ea-9e69-27e6b13971c9-c000.snappy.parquet.crc",
+      "bytes": 28,
+      "local_sha256": "a7a8101dbe507bcc16d713045bde10f771e5afe9ee8f0ae2132e8826d1b76d94",
+      "download_sha256": "a7a8101dbe507bcc16d713045bde10f771e5afe9ee8f0ae2132e8826d1b76d94",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/linear_regression/data/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/linear_regression/data/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/linear_regression/data/part-00000-d2390269-a074-42ea-9e69-27e6b13971c9-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/linear_regression/data/part-00000-d2390269-a074-42ea-9e69-27e6b13971c9-c000.snappy.parquet",
+      "bytes": 2194,
+      "local_sha256": "4a431c6fd8e80e6daa2d7e5ca34168903174aa0bf24cc8286b221f852b9bc2f0",
+      "download_sha256": "4a431c6fd8e80e6daa2d7e5ca34168903174aa0bf24cc8286b221f852b9bc2f0",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/linear_regression/metadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/linear_regression/metadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/linear_regression/metadata/.part-00000-8e40497d-0f62-4859-a1e8-032f3bdd653d-c000.txt.crc",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/linear_regression/metadata/.part-00000-8e40497d-0f62-4859-a1e8-032f3bdd653d-c000.txt.crc",
+      "bytes": 16,
+      "local_sha256": "a346df23bc98cf2966d63119c0e6300b90c4f1d16745654e2caa885f3107bcd2",
+      "download_sha256": "a346df23bc98cf2966d63119c0e6300b90c4f1d16745654e2caa885f3107bcd2",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/linear_regression/metadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/linear_regression/metadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/linear_regression/metadata/part-00000-8e40497d-0f62-4859-a1e8-032f3bdd653d-c000.txt",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/linear_regression/metadata/part-00000-8e40497d-0f62-4859-a1e8-032f3bdd653d-c000.txt",
+      "bytes": 556,
+      "local_sha256": "c23152e820f095e3a887ee6ed90e60c889e0c18e9f9ef47b2e0c9bc4d50cc550",
+      "download_sha256": "c23152e820f095e3a887ee6ed90e60c889e0c18e9f9ef47b2e0c9bc4d50cc550",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/data/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/data/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/data/.part-00000-b6ee582b-6ab9-451e-8f80-af74a3950836-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/data/.part-00000-b6ee582b-6ab9-451e-8f80-af74a3950836-c000.snappy.parquet.crc",
+      "bytes": 624,
+      "local_sha256": "9833a7115e7b9085b4bdf2020f336cd0c7c998c1a98ef1f87b8b35703d35fb23",
+      "download_sha256": "9833a7115e7b9085b4bdf2020f336cd0c7c998c1a98ef1f87b8b35703d35fb23",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/data/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/data/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/data/part-00000-b6ee582b-6ab9-451e-8f80-af74a3950836-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/data/part-00000-b6ee582b-6ab9-451e-8f80-af74a3950836-c000.snappy.parquet",
+      "bytes": 78670,
+      "local_sha256": "a06326ae337f92550584e7acfc88e599e8c0599c044f9a881b759024c6e7d5fa",
+      "download_sha256": "a06326ae337f92550584e7acfc88e599e8c0599c044f9a881b759024c6e7d5fa",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/metadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/metadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/metadata/.part-00000-6815e710-11bc-40e7-abe5-78ec6c14b208-c000.txt.crc",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/metadata/.part-00000-6815e710-11bc-40e7-abe5-78ec6c14b208-c000.txt.crc",
+      "bytes": 16,
+      "local_sha256": "6802c1b4b40c4628e86c7ad12bbccff00c2ca5f27662db31c64116281972a41d",
+      "download_sha256": "6802c1b4b40c4628e86c7ad12bbccff00c2ca5f27662db31c64116281972a41d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/metadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/metadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/metadata/part-00000-6815e710-11bc-40e7-abe5-78ec6c14b208-c000.txt",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/metadata/part-00000-6815e710-11bc-40e7-abe5-78ec6c14b208-c000.txt",
+      "bytes": 696,
+      "local_sha256": "4fa1200d29938c9ebb9f9231ebd51457a6a630ba1f1b22ad1553cb3355a3fffd",
+      "download_sha256": "4fa1200d29938c9ebb9f9231ebd51457a6a630ba1f1b22ad1553cb3355a3fffd",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/treesMetadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/treesMetadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/treesMetadata/.part-00000-f11e334a-5943-4df1-8dd2-789047a3e86b-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/treesMetadata/.part-00000-f11e334a-5943-4df1-8dd2-789047a3e86b-c000.snappy.parquet.crc",
+      "bytes": 40,
+      "local_sha256": "f21d3c7f80be3b878e22d2c77a0740096cb1fef37b649cf2a31572edb71b7653",
+      "download_sha256": "f21d3c7f80be3b878e22d2c77a0740096cb1fef37b649cf2a31572edb71b7653",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/treesMetadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/treesMetadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T075923514170Z/random_forest/treesMetadata/part-00000-f11e334a-5943-4df1-8dd2-789047a3e86b-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260914T075923514170Z/random_forest/treesMetadata/part-00000-f11e334a-5943-4df1-8dd2-789047a3e86b-c000.snappy.parquet",
+      "bytes": 3984,
+      "local_sha256": "c9197618ce90755c1231fdab5d19420bb07a76bffd9b147127282338e0f0bd6c",
+      "download_sha256": "c9197618ce90755c1231fdab5d19420bb07a76bffd9b147127282338e0f0bd6c",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/linear_regression/data/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/linear_regression/data/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/linear_regression/data/.part-00000-40e6cebe-d417-4065-a5e7-2053d2502470-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/linear_regression/data/.part-00000-40e6cebe-d417-4065-a5e7-2053d2502470-c000.snappy.parquet.crc",
+      "bytes": 28,
+      "local_sha256": "a7a8101dbe507bcc16d713045bde10f771e5afe9ee8f0ae2132e8826d1b76d94",
+      "download_sha256": "a7a8101dbe507bcc16d713045bde10f771e5afe9ee8f0ae2132e8826d1b76d94",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/linear_regression/data/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/linear_regression/data/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/linear_regression/data/part-00000-40e6cebe-d417-4065-a5e7-2053d2502470-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/linear_regression/data/part-00000-40e6cebe-d417-4065-a5e7-2053d2502470-c000.snappy.parquet",
+      "bytes": 2194,
+      "local_sha256": "4a431c6fd8e80e6daa2d7e5ca34168903174aa0bf24cc8286b221f852b9bc2f0",
+      "download_sha256": "4a431c6fd8e80e6daa2d7e5ca34168903174aa0bf24cc8286b221f852b9bc2f0",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/linear_regression/metadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/linear_regression/metadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/linear_regression/metadata/.part-00000-44b88393-33d9-46d4-8d20-08fb823e833b-c000.txt.crc",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/linear_regression/metadata/.part-00000-44b88393-33d9-46d4-8d20-08fb823e833b-c000.txt.crc",
+      "bytes": 16,
+      "local_sha256": "aa1703b58df8ca08b69effe360366ec8d93af0f6cdab411c02501a2f0077c717",
+      "download_sha256": "aa1703b58df8ca08b69effe360366ec8d93af0f6cdab411c02501a2f0077c717",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/linear_regression/metadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/linear_regression/metadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/linear_regression/metadata/part-00000-44b88393-33d9-46d4-8d20-08fb823e833b-c000.txt",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/linear_regression/metadata/part-00000-44b88393-33d9-46d4-8d20-08fb823e833b-c000.txt",
+      "bytes": 556,
+      "local_sha256": "ef76ba4a0e8e0b6ab62c33508ab78db1a40dabba7f7bf41ff178201a0ece5f34",
+      "download_sha256": "ef76ba4a0e8e0b6ab62c33508ab78db1a40dabba7f7bf41ff178201a0ece5f34",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/data/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/data/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/data/.part-00000-10550ffd-43c9-4043-b816-d02cefffd9fc-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/data/.part-00000-10550ffd-43c9-4043-b816-d02cefffd9fc-c000.snappy.parquet.crc",
+      "bytes": 624,
+      "local_sha256": "49f0ebae4b260da1fbb4cf1d597add69d195528d733179cd9f0a200d9e3daa81",
+      "download_sha256": "49f0ebae4b260da1fbb4cf1d597add69d195528d733179cd9f0a200d9e3daa81",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/data/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/data/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/data/part-00000-10550ffd-43c9-4043-b816-d02cefffd9fc-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/data/part-00000-10550ffd-43c9-4043-b816-d02cefffd9fc-c000.snappy.parquet",
+      "bytes": 78670,
+      "local_sha256": "92a3b174db1cdc86ddcee88cfd8769f2a8d43788e1b0ca4f7dca02d421e8a376",
+      "download_sha256": "92a3b174db1cdc86ddcee88cfd8769f2a8d43788e1b0ca4f7dca02d421e8a376",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/metadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/metadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/metadata/.part-00000-df18d096-836d-45d2-8d40-6ba501d73962-c000.txt.crc",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/metadata/.part-00000-df18d096-836d-45d2-8d40-6ba501d73962-c000.txt.crc",
+      "bytes": 16,
+      "local_sha256": "852fafcb94953c247be5e99f5aee4d85c4523a37702b281a0255875e856d6f8f",
+      "download_sha256": "852fafcb94953c247be5e99f5aee4d85c4523a37702b281a0255875e856d6f8f",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/metadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/metadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/metadata/part-00000-df18d096-836d-45d2-8d40-6ba501d73962-c000.txt",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/metadata/part-00000-df18d096-836d-45d2-8d40-6ba501d73962-c000.txt",
+      "bytes": 696,
+      "local_sha256": "bc34375d74c31fe565b914386c0880efad77b1d71dbb4def417faa0fff6edd6c",
+      "download_sha256": "bc34375d74c31fe565b914386c0880efad77b1d71dbb4def417faa0fff6edd6c",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/treesMetadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/treesMetadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/treesMetadata/.part-00000-1bd87504-8179-44ae-a7ce-c91f050b19c7-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/treesMetadata/.part-00000-1bd87504-8179-44ae-a7ce-c91f050b19c7-c000.snappy.parquet.crc",
+      "bytes": 40,
+      "local_sha256": "4bc91f0ba7c481e80b6ee6061129c660c8a57a6992141f8536dcf51adac7ebba",
+      "download_sha256": "4bc91f0ba7c481e80b6ee6061129c660c8a57a6992141f8536dcf51adac7ebba",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/treesMetadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/treesMetadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260914T120724782833Z/random_forest/treesMetadata/part-00000-1bd87504-8179-44ae-a7ce-c91f050b19c7-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260914T120724782833Z/random_forest/treesMetadata/part-00000-1bd87504-8179-44ae-a7ce-c91f050b19c7-c000.snappy.parquet",
+      "bytes": 3988,
+      "local_sha256": "3722d07e56ab52c40eb666337894e5daef7fa275666e706a9917208c2aadb7a3",
+      "download_sha256": "3722d07e56ab52c40eb666337894e5daef7fa275666e706a9917208c2aadb7a3",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/linear_regression/data/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/linear_regression/data/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/linear_regression/data/.part-00000-4a7cc63c-e0b2-439a-ac53-1d32a1ee5e18-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/linear_regression/data/.part-00000-4a7cc63c-e0b2-439a-ac53-1d32a1ee5e18-c000.snappy.parquet.crc",
+      "bytes": 28,
+      "local_sha256": "cd1cbda04cf066de65cc4becc18d3a4e6489529e2e1b457fc6989bb1dd1a9206",
+      "download_sha256": "cd1cbda04cf066de65cc4becc18d3a4e6489529e2e1b457fc6989bb1dd1a9206",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/linear_regression/data/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/linear_regression/data/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/linear_regression/data/part-00000-4a7cc63c-e0b2-439a-ac53-1d32a1ee5e18-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/linear_regression/data/part-00000-4a7cc63c-e0b2-439a-ac53-1d32a1ee5e18-c000.snappy.parquet",
+      "bytes": 2194,
+      "local_sha256": "2636156edaa87cf647202c963445b3f0deff91856d77ec28d44ce115874651d3",
+      "download_sha256": "2636156edaa87cf647202c963445b3f0deff91856d77ec28d44ce115874651d3",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/linear_regression/metadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/linear_regression/metadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/linear_regression/metadata/.part-00000-2fb8e9b7-aca8-4350-85ce-15f0eb0aba72-c000.txt.crc",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/linear_regression/metadata/.part-00000-2fb8e9b7-aca8-4350-85ce-15f0eb0aba72-c000.txt.crc",
+      "bytes": 16,
+      "local_sha256": "ca797864a31b70df6560038ec4b950cb96674ad5d088eae2a04877e2aa9d4be8",
+      "download_sha256": "ca797864a31b70df6560038ec4b950cb96674ad5d088eae2a04877e2aa9d4be8",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/linear_regression/metadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/linear_regression/metadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/linear_regression/metadata/part-00000-2fb8e9b7-aca8-4350-85ce-15f0eb0aba72-c000.txt",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/linear_regression/metadata/part-00000-2fb8e9b7-aca8-4350-85ce-15f0eb0aba72-c000.txt",
+      "bytes": 556,
+      "local_sha256": "ed786690e42f77092629752f3681f1ed092790d4125806ad86c051cf08253965",
+      "download_sha256": "ed786690e42f77092629752f3681f1ed092790d4125806ad86c051cf08253965",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/data/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/data/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/data/.part-00000-0b33f7c3-0b1a-40ca-a0a1-c04142099430-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/data/.part-00000-0b33f7c3-0b1a-40ca-a0a1-c04142099430-c000.snappy.parquet.crc",
+      "bytes": 624,
+      "local_sha256": "1d365237cc4c581a21048798ea57cb4852a6ddc5b87a756d35dee95cb794e117",
+      "download_sha256": "1d365237cc4c581a21048798ea57cb4852a6ddc5b87a756d35dee95cb794e117",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/data/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/data/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/data/part-00000-0b33f7c3-0b1a-40ca-a0a1-c04142099430-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/data/part-00000-0b33f7c3-0b1a-40ca-a0a1-c04142099430-c000.snappy.parquet",
+      "bytes": 78670,
+      "local_sha256": "79425bc61ffd883bc99405b09f415aab78a8620a35987d5137e168f68a29a393",
+      "download_sha256": "79425bc61ffd883bc99405b09f415aab78a8620a35987d5137e168f68a29a393",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/metadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/metadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/metadata/.part-00000-facd2c62-341f-430d-b370-ec8dff11caaa-c000.txt.crc",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/metadata/.part-00000-facd2c62-341f-430d-b370-ec8dff11caaa-c000.txt.crc",
+      "bytes": 16,
+      "local_sha256": "46b637ae958ad43f497fea6c8a039c39891f41402f6c88d2539ad32d91598dc4",
+      "download_sha256": "46b637ae958ad43f497fea6c8a039c39891f41402f6c88d2539ad32d91598dc4",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/metadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/metadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/metadata/part-00000-facd2c62-341f-430d-b370-ec8dff11caaa-c000.txt",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/metadata/part-00000-facd2c62-341f-430d-b370-ec8dff11caaa-c000.txt",
+      "bytes": 696,
+      "local_sha256": "bf00b7b59c12d610b2cf560943ebe87326431834f4ea37bacb419912dc319ea7",
+      "download_sha256": "bf00b7b59c12d610b2cf560943ebe87326431834f4ea37bacb419912dc319ea7",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/treesMetadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/treesMetadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/treesMetadata/.part-00000-448299a9-6338-4e21-b258-6813b2e7425e-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/treesMetadata/.part-00000-448299a9-6338-4e21-b258-6813b2e7425e-c000.snappy.parquet.crc",
+      "bytes": 40,
+      "local_sha256": "b2b582b76044bf042b473fab07bf080bf8c9bdb617207b3a9c93c89ff16dd234",
+      "download_sha256": "b2b582b76044bf042b473fab07bf080bf8c9bdb617207b3a9c93c89ff16dd234",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/treesMetadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/treesMetadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T030549196238Z/random_forest/treesMetadata/part-00000-448299a9-6338-4e21-b258-6813b2e7425e-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260915T030549196238Z/random_forest/treesMetadata/part-00000-448299a9-6338-4e21-b258-6813b2e7425e-c000.snappy.parquet",
+      "bytes": 3992,
+      "local_sha256": "fcf774f57d3952991c95874b8d823016bced6a58f21b8e1939c697388fbac0c6",
+      "download_sha256": "fcf774f57d3952991c95874b8d823016bced6a58f21b8e1939c697388fbac0c6",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "models/20260915T082157813150Z/linear_regression/data/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/linear_regression/data/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/linear_regression/data/.part-00000-bfbb25c7-3d63-4c3f-97c8-d6ce7e6f4123-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/linear_regression/data/.part-00000-bfbb25c7-3d63-4c3f-97c8-d6ce7e6f4123-c000.snappy.parquet.crc",
+      "bytes": 28,
+      "local_sha256": "a68c3e497015d14bd34441cf0c86603d3b92a61ef209d68e7ce3b706d66931aa",
+      "download_sha256": "a68c3e497015d14bd34441cf0c86603d3b92a61ef209d68e7ce3b706d66931aa",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/linear_regression/data/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/linear_regression/data/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/linear_regression/data/part-00000-bfbb25c7-3d63-4c3f-97c8-d6ce7e6f4123-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/linear_regression/data/part-00000-bfbb25c7-3d63-4c3f-97c8-d6ce7e6f4123-c000.snappy.parquet",
+      "bytes": 2194,
+      "local_sha256": "d2dcc1396efd657773371d46bcca8a585bb88f00df5a9108e5c530db9dd5e721",
+      "download_sha256": "d2dcc1396efd657773371d46bcca8a585bb88f00df5a9108e5c530db9dd5e721",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/linear_regression/metadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/linear_regression/metadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/linear_regression/metadata/.part-00000-e4b86eb9-368e-4ab6-bd20-2ef0a2e886f7-c000.txt.crc",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/linear_regression/metadata/.part-00000-e4b86eb9-368e-4ab6-bd20-2ef0a2e886f7-c000.txt.crc",
+      "bytes": 16,
+      "local_sha256": "72dd787339d15c9136d7f9c1c831e6aba9d0717bf6673b25cc6daaa35655fff1",
+      "download_sha256": "72dd787339d15c9136d7f9c1c831e6aba9d0717bf6673b25cc6daaa35655fff1",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/linear_regression/metadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/linear_regression/metadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/linear_regression/metadata/part-00000-e4b86eb9-368e-4ab6-bd20-2ef0a2e886f7-c000.txt",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/linear_regression/metadata/part-00000-e4b86eb9-368e-4ab6-bd20-2ef0a2e886f7-c000.txt",
+      "bytes": 556,
+      "local_sha256": "52dc553e854480ad064134b1bc699aafdeef3087012df6769ba9369d9e68f2d6",
+      "download_sha256": "52dc553e854480ad064134b1bc699aafdeef3087012df6769ba9369d9e68f2d6",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/data/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/data/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/data/.part-00000-f8b9259f-e448-4448-bd9f-c863a32539c9-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/data/.part-00000-f8b9259f-e448-4448-bd9f-c863a32539c9-c000.snappy.parquet.crc",
+      "bytes": 628,
+      "local_sha256": "639121dece4175114c6027c295310c0f8e461eacc74d23240d3ad3ecbac1ffb0",
+      "download_sha256": "639121dece4175114c6027c295310c0f8e461eacc74d23240d3ad3ecbac1ffb0",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/data/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/data/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/data/part-00000-f8b9259f-e448-4448-bd9f-c863a32539c9-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/data/part-00000-f8b9259f-e448-4448-bd9f-c863a32539c9-c000.snappy.parquet",
+      "bytes": 79306,
+      "local_sha256": "1d7a03a479978f2f07a87b6e5329e9ea06c1f27006facc54ab70b5c3762358c9",
+      "download_sha256": "1d7a03a479978f2f07a87b6e5329e9ea06c1f27006facc54ab70b5c3762358c9",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/metadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/metadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/metadata/.part-00000-1c30d788-1bbf-4d2f-8fff-6dcc34e6ebb8-c000.txt.crc",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/metadata/.part-00000-1c30d788-1bbf-4d2f-8fff-6dcc34e6ebb8-c000.txt.crc",
+      "bytes": 16,
+      "local_sha256": "3487612295de2afe183ac49c3945a267c9fb2288fca20e7efe515610be6f17ea",
+      "download_sha256": "3487612295de2afe183ac49c3945a267c9fb2288fca20e7efe515610be6f17ea",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/metadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/metadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/metadata/part-00000-1c30d788-1bbf-4d2f-8fff-6dcc34e6ebb8-c000.txt",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/metadata/part-00000-1c30d788-1bbf-4d2f-8fff-6dcc34e6ebb8-c000.txt",
+      "bytes": 696,
+      "local_sha256": "13d1f9c197b7feae49c92c3219c3fba605126bec5afb2bd341c282c7a724f11c",
+      "download_sha256": "13d1f9c197b7feae49c92c3219c3fba605126bec5afb2bd341c282c7a724f11c",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/treesMetadata/._SUCCESS.crc",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/treesMetadata/._SUCCESS.crc",
+      "bytes": 8,
+      "local_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "download_sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/treesMetadata/.part-00000-4abd82b4-fc32-4032-aa5e-7337b4698a7e-c000.snappy.parquet.crc",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/treesMetadata/.part-00000-4abd82b4-fc32-4032-aa5e-7337b4698a7e-c000.snappy.parquet.crc",
+      "bytes": 40,
+      "local_sha256": "62efb3e4b3195c8b0fcf2882a8c6adf83aa651abfa9046f51a5a688bb7ac7d24",
+      "download_sha256": "62efb3e4b3195c8b0fcf2882a8c6adf83aa651abfa9046f51a5a688bb7ac7d24",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/treesMetadata/_SUCCESS",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/treesMetadata/_SUCCESS",
+      "bytes": 0,
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "models/20260915T082157813150Z/random_forest/treesMetadata/part-00000-4abd82b4-fc32-4032-aa5e-7337b4698a7e-c000.snappy.parquet",
+      "remote": "/evcharge-stage2/models/20260915T082157813150Z/random_forest/treesMetadata/part-00000-4abd82b4-fc32-4032-aa5e-7337b4698a7e-c000.snappy.parquet",
+      "bytes": 3987,
+      "local_sha256": "f9e068952bb235d4c825327547b24b87ccf550dc505d54353ce24be7ddf15519",
+      "download_sha256": "f9e068952bb235d4c825327547b24b87ccf550dc505d54353ce24be7ddf15519",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "ods/20260914T075923514170Z/dsv13r2.csv",
+      "remote": "/evcharge-stage2/ods/20260914T075923514170Z/dsv13r2.csv",
+      "bytes": 102279,
+      "local_sha256": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8",
+      "download_sha256": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ods/20260914T075923514170Z/nvv2t.csv",
+      "remote": "/evcharge-stage2/ods/20260914T075923514170Z/nvv2t.csv",
+      "bytes": 420477,
+      "local_sha256": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+      "download_sha256": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ods/20260914T075923514170Z/nvv2t_md_end.csv",
+      "remote": "/evcharge-stage2/ods/20260914T075923514170Z/nvv2t_md_end.csv",
+      "bytes": 13018,
+      "local_sha256": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+      "download_sha256": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ods/20260914T120724782833Z/dsv13r2.csv",
+      "remote": "/evcharge-stage2/ods/20260914T120724782833Z/dsv13r2.csv",
+      "bytes": 102279,
+      "local_sha256": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8",
+      "download_sha256": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ods/20260914T120724782833Z/nvv2t.csv",
+      "remote": "/evcharge-stage2/ods/20260914T120724782833Z/nvv2t.csv",
+      "bytes": 420477,
+      "local_sha256": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+      "download_sha256": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ods/20260914T120724782833Z/nvv2t_md_end.csv",
+      "remote": "/evcharge-stage2/ods/20260914T120724782833Z/nvv2t_md_end.csv",
+      "bytes": 13018,
+      "local_sha256": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+      "download_sha256": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ods/20260915T030549196238Z/dsv13r2.csv",
+      "remote": "/evcharge-stage2/ods/20260915T030549196238Z/dsv13r2.csv",
+      "bytes": 102279,
+      "local_sha256": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8",
+      "download_sha256": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ods/20260915T030549196238Z/nvv2t.csv",
+      "remote": "/evcharge-stage2/ods/20260915T030549196238Z/nvv2t.csv",
+      "bytes": 420477,
+      "local_sha256": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+      "download_sha256": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ods/20260915T030549196238Z/nvv2t_md_end.csv",
+      "remote": "/evcharge-stage2/ods/20260915T030549196238Z/nvv2t_md_end.csv",
+      "bytes": 13018,
+      "local_sha256": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+      "download_sha256": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "ods/20260915T082157813150Z/dsv13r2.csv",
+      "remote": "/evcharge-stage2/ods/20260915T082157813150Z/dsv13r2.csv",
+      "bytes": 102279,
+      "local_sha256": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8",
+      "download_sha256": "485f007acedf2388707251befc2a9e6d0bc247b54d1aabfed79cc6ca89ae8bf8",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "ods/20260915T082157813150Z/nvv2t.csv",
+      "remote": "/evcharge-stage2/ods/20260915T082157813150Z/nvv2t.csv",
+      "bytes": 420477,
+      "local_sha256": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+      "download_sha256": "c5053622442c30afebb7ed1af852a2cdc704eac4b6febb38c226bc4aa10fc057",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "ods/20260915T082157813150Z/nvv2t_md_end.csv",
+      "remote": "/evcharge-stage2/ods/20260915T082157813150Z/nvv2t_md_end.csv",
+      "bytes": 13018,
+      "local_sha256": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+      "download_sha256": "b7d7c64d03e9c6936bfed8b998e733e2aa5af2cd877dca7c73ef1d6c5a34539d",
+      "verified": true,
+      "action": "uploaded"
+    },
+    {
+      "path": "reports/20260914T075923514170Z-quality.json",
+      "remote": "/evcharge-stage2/reports/20260914T075923514170Z-quality.json",
+      "bytes": 3075,
+      "local_sha256": "7f0e7c7725e0e3f5bcc40a15597ed8e4823a79d94ad18af745419c7182b4ce8f",
+      "download_sha256": "7f0e7c7725e0e3f5bcc40a15597ed8e4823a79d94ad18af745419c7182b4ce8f",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "reports/20260914T120724782833Z-quality.json",
+      "remote": "/evcharge-stage2/reports/20260914T120724782833Z-quality.json",
+      "bytes": 3075,
+      "local_sha256": "7f0e7c7725e0e3f5bcc40a15597ed8e4823a79d94ad18af745419c7182b4ce8f",
+      "download_sha256": "7f0e7c7725e0e3f5bcc40a15597ed8e4823a79d94ad18af745419c7182b4ce8f",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "reports/20260915T030549196238Z-quality.json",
+      "remote": "/evcharge-stage2/reports/20260915T030549196238Z-quality.json",
+      "bytes": 3075,
+      "local_sha256": "7f0e7c7725e0e3f5bcc40a15597ed8e4823a79d94ad18af745419c7182b4ce8f",
+      "download_sha256": "7f0e7c7725e0e3f5bcc40a15597ed8e4823a79d94ad18af745419c7182b4ce8f",
+      "verified": true,
+      "action": "unchanged"
+    },
+    {
+      "path": "reports/20260915T082157813150Z-quality.json",
+      "remote": "/evcharge-stage2/reports/20260915T082157813150Z-quality.json",
+      "bytes": 8959,
+      "local_sha256": "bc1292e18013cdd32324403dcdb3967eae5b83e1671dca3f20eaa7f2d2a269d4",
+      "download_sha256": "bc1292e18013cdd32324403dcdb3967eae5b83e1671dca3f20eaa7f2d2a269d4",
+      "verified": true,
+      "action": "uploaded"
+    }
+  ],
+  "completed_at": "2026-09-16T09:58:42.586811+00:00",
+  "verified_count": 201,
+  "total_bytes": 7112570
+}
