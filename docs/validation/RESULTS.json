@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-23",
+  "engineering_commit": "9d714ca91784a25701a7a56750534b1a9e6e6a37",
+  "clean_clone_passed": true,
+  "python_tests": 30,
+  "browser_tests": 8,
+  "model_loads": 20,
+  "manifests": [
+    201,
+    95,
+    3
+  ],
+  "reference_hashes": 21,
+  "recomputed_run": "20261123T083753082295Z",
+  "reference_run": "20260917T072007238833Z",
+  "reproduction_differences": 0,
+  "known_limits": [
+    "Optional remote HDFS not rerun",
+    "Linux full stack not run",
+    "npm audit: 7 affected dependency nodes; no automatic upgrades"
+  ]
+}

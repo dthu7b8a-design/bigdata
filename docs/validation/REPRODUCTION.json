@@ -1,0 +1,47 @@
+{
+  "reference_run": "20260917T072007238833Z",
+  "recomputed_run": "20261123T042155246992Z",
+  "compared_sections": [
+    "kpis",
+    "charts",
+    "quality",
+    "model"
+  ],
+  "ignored_metadata": [
+    "run_id",
+    "updated_at"
+  ],
+  "differences": [],
+  "passed": true,
+  "kpis": {
+    "sessions": 3339,
+    "energy_kwh": 19719.59,
+    "stations": 105,
+    "users": 84,
+    "avg_duration_h": 2.86509458919437,
+    "fees": 398.02
+  },
+  "model_metrics": [
+    {
+      "model": "同星期历史基线",
+      "mae": 32.62166666666668,
+      "rmse": 47.65037469247575,
+      "r2": 0.7122324954753475,
+      "validation_rmse": 43.175436377447056
+    },
+    {
+      "model": "线性回归",
+      "mae": 33.771205130265265,
+      "rmse": 45.14687326263116,
+      "r2": 0.74167617290581,
+      "validation_rmse": 42.24065432342175
+    },
+    {
+      "model": "随机森林",
+      "mae": 75.47622235503728,
+      "rmse": 88.44944576961767,
+      "r2": 0.008484877220413689,
+      "validation_rmse": 66.92756497561925
+    }
+  ]
+}

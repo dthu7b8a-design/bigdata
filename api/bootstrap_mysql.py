@@ -13,8 +13,8 @@ import time
 
 import pymysql
 
-BASE = Path("D:/MySQL/mysql-8.0.30-winx64")
-RUNTIME = Path("D:/workspace/runtime/bigdata-mysql")
+BASE = Path(os.getenv("MYSQL_BASEDIR", ""))
+RUNTIME = Path(os.getenv("BIGDATA_MYSQL_RUNTIME", str(Path(__file__).resolve().parents[1] / "runtime" / "mysql")))
 ENV = Path(__file__).with_name(".env")
 DATABASE = "bigdata_dashboard"
 
@@ -28,6 +28,9 @@ def port_open():
 def main():
     if port_open():
         print("Port 3307 is already occupied; no instance was modified. Verify with /api/health.")
+        return 1
+    if not os.getenv("MYSQL_BASEDIR") or not (BASE / "bin/mysqld.exe").is_file():
+        print("Set MYSQL_BASEDIR to a local MySQL installation containing bin/mysqld.exe; no instance was modified.")
         return 1
     data = RUNTIME / "data"
     existing = (data / "mysql").is_dir()

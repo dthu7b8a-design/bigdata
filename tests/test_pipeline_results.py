@@ -2,6 +2,7 @@
 import csv
 import hashlib
 import json
+import os
 from collections import Counter
 from datetime import datetime
 from decimal import Decimal
@@ -9,14 +10,16 @@ from pathlib import Path
 import pytest
 
 ROOT=Path(__file__).resolve().parents[1]
+SOURCE=Path(os.getenv('BIGDATA_SOURCE', str(ROOT/'datasets/teacher')))
+RESULT=Path(os.getenv('BIGDATA_RESULT', str(ROOT/'data/ads/dashboard.json')))
 
 @pytest.fixture(scope='module')
 def result():
-    return json.loads((ROOT/'data/ads/dashboard.json').read_text(encoding='utf-8'))
+    return json.loads(RESULT.read_text(encoding='utf-8'))
 
 @pytest.fixture(scope='module')
 def rows():
-    with (ROOT.parent/'04.数据集最终版/nvv2t.csv').open(encoding='utf-8',newline='') as source:
+    with (SOURCE/'nvv2t.csv').open(encoding='utf-8',newline='') as source:
         return list(csv.DictReader(source))
 
 @pytest.fixture(scope='module')
@@ -44,7 +47,7 @@ def test_cross_comparison_independent(result,valid_rows):
 
 def test_source_unchanged(result):
     for filename,digest in result['meta']['source_sha256'].items():
-        assert hashlib.sha256((ROOT.parent/'04.数据集最终版'/filename).read_bytes()).hexdigest()==digest
+        assert hashlib.sha256((SOURCE/filename).read_bytes()).hexdigest()==digest
 
 def test_forecast_split_and_selection(result):
     model=result['model']; split=model['split']

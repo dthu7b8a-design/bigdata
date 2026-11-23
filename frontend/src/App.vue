@@ -69,7 +69,7 @@ onBeforeUnmount(() => { ++requestId; controller?.abort() })
         </template>
         <template v-else-if="tab === 'analysis'">
           <div class="section-title"><h2>多维画像 <small>DIMENSION EXPLORER</small></h2><div class="segmented" aria-label="分析度量"><button :class="{ selected: metric === 'sessions' }" @click="metric = 'sessions'">充电次数</button><button :class="{ selected: metric === 'energy_kwh' }" @click="metric = 'energy_kwh'">充电电量</button></div></div>
-          <div class="notice">设施类型与 managerVehicle 的 0/1 均按原始编码显示，缺少编码字典，不推测含义。连接时长不等于持续通电时长。</div>
+          <div class="notice">设施类型按清洗规则映射，未定义编码保留未知标签；managerVehicle 的 0/1 保留原值，不推测含义。连接时长不等于持续通电时长。</div>
           <div class="chart-grid">
             <ChartPanel title="区域分布" :subtitle="`位置维度 · ${metricLabel} / Top 12`" :option="ranked('locations')" :empty="!rows(c.locations).length" />
             <ChartPanel title="设施类型构成" :subtitle="`设施维度 · ${metricLabel}`" :option="donut(c.facility, 'facility_type', metric, metricLabel)" :empty="!rows(c.facility).length" />
@@ -79,7 +79,7 @@ onBeforeUnmount(() => { ++requestId; controller?.abort() })
             <ChartPanel title="充电时长分布" subtitle="时长维度 · 各区间充电次数" :option="seriesChart(c.duration, 'bucket', 'sessions')" :empty="!rows(c.duration).length" />
             <ChartPanel title="站点 × 小时" subtitle="交叉分析 01 · 颜色越亮，充电次数越多 / 滚轮查看站点" :option="heatmap(c.station_hour)" :empty="!rows(c.station_hour).length" wide />
             <ChartPanel title="站点平均连接时长" subtitle="站点维度 · 小时 / Top 12" :option="seriesChart([...rows(c.stations)].sort((a,b) => b.avg_duration_h-a.avg_duration_h).slice(0,12), 'name', 'avg_duration_h', 'bar', true, '平均连接时长 (h)')" :empty="!rows(c.stations).length" />
-            <ChartPanel title="连接时长 × 充电电量" :subtitle="`会话级散点 · ${format(rows(c.energy_duration).length)} 条原始记录 / 滚轮缩放`" :option="scatterChart(c.energy_duration)" :empty="!rows(c.energy_duration).length" wide />
+            <ChartPanel title="连接时长 × 充电电量" :subtitle="`会话级散点 · ${format(rows(c.energy_duration).length)} 条有效会话 / 滚轮缩放`" :option="scatterChart(c.energy_duration)" :empty="!rows(c.energy_duration).length" wide />
           </div>
           <div class="section-title"><h2>平台 × 工作日类型 <small>CROSS ANALYSIS 02</small></h2><div class="segmented"><button :class="{ selected: crossMetric === 'sessions' }" @click="crossMetric = 'sessions'">次数对比</button><button :class="{ selected: crossMetric === 'avg_energy_kwh' }" @click="crossMetric = 'avg_energy_kwh'">单次平均电量</button></div></div>
           <ChartPanel title="不同平台的日类型差异" :subtitle="crossMetric === 'sessions' ? '按 day_type 分组 · 单位：次' : '按 day_type 分组 · 单位：kWh / 次'" :option="crossChart(c.platform_daytype, crossMetric)" :empty="!rows(c.platform_daytype).length" />
