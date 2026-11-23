@@ -39,7 +39,11 @@ README的current-*截图来自本轮真实Flask页面，显示3339/84/398.02和�
 
 ## 4. 干净克隆
 
-最终工程提交的独立检出、新venv/前端安装、再次重算、模型和测试在收尾执行，结果随后补写。本节不预先宣称通过。
+工程提交`9d714ca91784a25701a7a56750534b1a9e6e6a37`已独立clone：新venv按完整lock安装，使用Git内默认datasets重算到新data；30项pytest全部通过、20个模型加载、201/95/3清单及21参考文件哈希通过；npm ci/build成功，原样start/stop脚本成功，浏览器8项含真实Flask全部通过。启动后仅停止本次脚本拥有的Flask，5000已释放，检出工作区干净。
+
+新重算批次`20261123T083753082295Z`与参考结果仍为0差异。首次检出遇Windows260字符限制缺两CRC；设置本仓库core.longpaths后恢复，仅取回缺失文件，未删除或改写清单。README已给出首次clone的仓库级设置。
+
+应用依赖重新安装，没有复制原项目venv/node_modules/data/.env。系统级JDK/Hadoop工具复用已明确配置的本机安装，MySQL只复用本轮新建隔离实例；克隆本地配置来自该新验证实例，不是原开发数据库。未把此验证描述为全新Windows系统镜像安装。摘要见 [RESULTS.json](validation/RESULTS.json)，首次重算对照见 [REPRODUCTION.json](validation/REPRODUCTION.json)。
 
 ## 5. 安全审计与未验收范围
 

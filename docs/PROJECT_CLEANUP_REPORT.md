@@ -14,6 +14,17 @@
 
 保留jobs/api/frontend/deploy/scripts/tests分层，新加datasets/teacher、results/reference、docs；默认data仍为运行输出，不强改src或引入Docker。
 
+```text
+整理分支基线：api/ jobs/ frontend/ deploy/ scripts/ tests/
+              README.md requirements.txt .idea/（既有共享配置暂保留）
+整理后：原模块保留 + datasets/teacher/（规范原始三CSV与SHA）
+        results/reference/（最终快照与完整模型）
+        docs/（技术档案、复现、验证、成果索引、整理报告）
+        requirements.lock.txt + .gitattributes
+```
+
+树仅展示正式Git内容；原本地环境/data和未跟踪个人成果完整留在原目录与备份，没有为整齐而删除。
+
 | 处理 | 范围 | 依据 |
 |---|---|---|
 | 修复忽略 | data/改为/data/ | 防止误排除嵌套模型参数 |
@@ -38,13 +49,15 @@
 
 ## 4. 验证与质量
 
-新venv完整重算、与最终参考0差异、30项pytest（含真实Spark/MySQL）、8项浏览器含真实Flask、20模型加载、全部清单及当前截图，详见 [VALIDATION](VALIDATION.md)。干净检出结果在收尾补入。
+新venv完整重算、与最终参考0差异、30项pytest（含真实Spark/MySQL）、8项浏览器含真实Flask、20模型加载、全部清单及当前截图，详见 [VALIDATION](VALIDATION.md)。随后独立clone、新venv、默认输入再次重算、完整测试/模型/前端与原样启停也全部通过；源码工作区干净。
+
+历史证据的LF→原CRLF字节恢复在原始diff中表现为大量行变化；这是保护既有SHA的必要处理，没有重写数据内容。审阅包同时提供原始diff与`--ignore-cr-at-eol`内容diff，不能将行数当重构规模或体积节省。
 
 完整性：必要来源/快照/模型进入正式Git；代码与结构：低风险参数化；文档：真实口径与个人职责；可靠性：当前Windows链路实测；限制：HDFS与Linux未端到端，依赖仍有安全告警，课程附件授权未明确。个人贡献依据团队职责，不把已有模型应用或HDFS存储包装为科研创新。
 
 ## 5. Git交付、回滚与发布边界
 
-最终工程SHA与报告SHA在本地交付清单记录；`git rev-parse HEAD`可核对整理副本。原main/原目录保留，回退优先使用原目录或备份/新检出，不对有用户后续成果的目录执行reset/clean。
+整理后工程提交为`9d714ca91784a25701a7a56750534b1a9e6e6a37`，独立克隆测试基于此SHA；最后仅补文档/验证摘要，最终文档HEAD在本地交付清单记录，`git rev-parse HEAD`可核对。原main/原目录保留，回退优先使用原目录或备份/新检出，不对有用户后续成果的目录执行reset/clean。
 
 正式成果大型Office/PPT/视频及其他成员材料未擅自复制公开。源码CSV内容已有历史版本，但对外授权仍应在推送审阅时明确，不自动附加LICENSE。
 

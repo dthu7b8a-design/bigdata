@@ -22,7 +22,7 @@
 Windows PowerShell：
 
 ~~~powershell
-git clone https://github.com/dthu7b8a-design/bigdata.git C:\ev-insight
+git clone -c core.longpaths=true https://github.com/dthu7b8a-design/bigdata.git C:\ev-insight
 Set-Location C:\ev-insight
 py -3.13 -m venv .venv
 $python = (Resolve-Path .venv\Scripts\python.exe).Path
@@ -39,7 +39,7 @@ $env:BIGDATA_PYTHON_HOME = (Resolve-Path .venv).Path
 Linux shell：
 
 ~~~bash
-git clone https://github.com/dthu7b8a-design/bigdata.git
+git clone -c core.longpaths=true https://github.com/dthu7b8a-design/bigdata.git
 cd bigdata
 python3.13 -m venv .venv
 . .venv/bin/activate
@@ -285,3 +285,7 @@ VMware 辅助 guest.ps1 要求 VMRUN_PATH、VMX_PATH、VM_GUEST_USER、VM_GUEST_
 ## 依赖锁定范围
 
 requirements.txt保留原10项直接版本；requirements.lock.txt记录本轮干净Python3.13环境中实测的完整传递依赖版本，首次复现优先按lock安装。本轮未升级既有直接依赖或Node lock。Linux仅给出操作路径，未以Windows锁文件安装成功代替Linux端到端证明。
+
+## Windows长路径
+
+历史证据路径较深，Windows首次clone请保留上文`-c core.longpaths=true`。若已检出到较深目录，先`git config core.longpaths true`，检查`git status`；首次checkout即使返回0也可能报Filename too long并缺少文件。不要对有个人改动的目录直接checkout/reset；应在短路径重新克隆后验证全部manifest。该配置仅作用当前仓库，不修改全局Git或系统策略。
