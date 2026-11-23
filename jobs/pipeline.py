@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import os
 import shutil
 from datetime import datetime, timezone
 from decimal import Decimal
@@ -164,7 +165,7 @@ def run(source, output, train=True):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument('--source',type=Path,default=ROOT.parent/'04.数据集最终版')
+    parser.add_argument('--source',type=Path,default=Path(os.getenv('BIGDATA_SOURCE', str(ROOT/'datasets/teacher'))))
     parser.add_argument('--output',type=Path,default=ROOT/'data')
     parser.add_argument('--skip-model',action='store_true')
     args=parser.parse_args()

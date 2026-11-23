@@ -1,14 +1,17 @@
 ﻿param([string]$Script,[string]$Output,[string]$Destination,[string]$Source,[string]$GuestDestination,[switch]$RestoreNetwork)
 $ErrorActionPreference='Stop'
-$vmrun='D:/workspace/02_BitDev虚拟机运行包/VMware便携运行环境/vmrun.exe'
-$vmx='D:/workspace/01_用户原始资料/学生资料/01.开发环境/Ubuntu2204Bit/Ubuntu2204Bit/BitDev.vmx'
-# Reuse the already authorized local connection without printing or copying its secret.
-$history=Get-Content -LiteralPath 'D:/workspace/03_Codex过程资料/最终交付制作-20260907/vm.ps1' -Raw
-$match=[regex]::Match($history,'-gp\s+([^\s]+)')
-if(!$match.Success){throw 'Existing guest credential not found'}
-$guestSecret=$match.Groups[1].Value.Trim([char]39,[char]34)
+$vmrun=$env:VMRUN_PATH
+$vmx=$env:VMX_PATH
+$guestUser=$env:VM_GUEST_USER
+$guestSecret=$env:VM_GUEST_PASSWORD
+if(!$vmrun -or !$vmx -or !$guestUser -or !$guestSecret){
+  throw 'Set VMRUN_PATH, VMX_PATH, VM_GUEST_USER and VM_GUEST_PASSWORD locally. See deploy/.env.example. No VM operation was performed.'
+}
+if(!(Test-Path -LiteralPath $vmrun -PathType Leaf) -or !(Test-Path -LiteralPath $vmx -PathType Leaf)){
+  throw 'VMRUN_PATH and VMX_PATH must point to existing local files. No VM operation was performed.'
+}
 function Invoke-GuestTool([string[]]$Arguments) {
-  $result=& $vmrun -gu bit -gp $guestSecret @Arguments 2>&1
+  $result=& $vmrun -gu $guestUser -gp $guestSecret @Arguments 2>&1
   if($LASTEXITCODE -ne 0){throw ('VMware guest operation failed: '+(($result -join "`n").Replace($guestSecret,'[REDACTED]')))}
 }
 if($Source){Invoke-GuestTool @('CopyFileFromHostToGuest',$vmx,$Source,$GuestDestination)}

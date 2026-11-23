@@ -1,0 +1,110 @@
+{
+  "source_run_id": "20260917T072007238833Z",
+  "files": [
+    {
+      "path": "dashboard.json",
+      "bytes": 642611,
+      "sha256": "415f3b74abf84ddb78491923e01d64e0b0796021c90f560a22a0cea7712e364a"
+    },
+    {
+      "path": "models/linear_regression/data/._SUCCESS.crc",
+      "bytes": 8,
+      "sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d"
+    },
+    {
+      "path": "models/linear_regression/data/.part-00000-9b2231ae-0517-41dc-b5e7-5e8e90922b9e-c000.snappy.parquet.crc",
+      "bytes": 28,
+      "sha256": "dedc2959517a4f0a5ff5f43ba16375e2a31c1f9c51bf25eb7a1bca3d130539a2"
+    },
+    {
+      "path": "models/linear_regression/data/_SUCCESS",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "models/linear_regression/data/part-00000-9b2231ae-0517-41dc-b5e7-5e8e90922b9e-c000.snappy.parquet",
+      "bytes": 2194,
+      "sha256": "2dcc4dbe8c90e54bb804a2b0b0a3675b2cc026a899115afd2353f3fbb840a870"
+    },
+    {
+      "path": "models/linear_regression/metadata/._SUCCESS.crc",
+      "bytes": 8,
+      "sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d"
+    },
+    {
+      "path": "models/linear_regression/metadata/.part-00000-28e292ed-6c88-41a9-a2b0-a2542d53f378-c000.txt.crc",
+      "bytes": 16,
+      "sha256": "5ef498a6024a4e7338047ee6766e8eb30b0dbc49b5d7f743f05070b9c520c0a6"
+    },
+    {
+      "path": "models/linear_regression/metadata/_SUCCESS",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "models/linear_regression/metadata/part-00000-28e292ed-6c88-41a9-a2b0-a2542d53f378-c000.txt",
+      "bytes": 556,
+      "sha256": "5609d2e167160fb78f70765c35fead9513311424b3bc3eeb2e11f9d69b132191"
+    },
+    {
+      "path": "models/random_forest/data/._SUCCESS.crc",
+      "bytes": 8,
+      "sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d"
+    },
+    {
+      "path": "models/random_forest/data/.part-00000-f4f96813-40dd-48b7-be4f-d855e81a6500-c000.snappy.parquet.crc",
+      "bytes": 628,
+      "sha256": "656bed59cc6c4955329db44f5dd75c4a8bfecb1b5f93713bd165a563cfff2ed7"
+    },
+    {
+      "path": "models/random_forest/data/_SUCCESS",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "models/random_forest/data/part-00000-f4f96813-40dd-48b7-be4f-d855e81a6500-c000.snappy.parquet",
+      "bytes": 79306,
+      "sha256": "f676b9a90f113679ffbe178844d8599e5638089d2a4afc3712800224280a99e5"
+    },
+    {
+      "path": "models/random_forest/metadata/._SUCCESS.crc",
+      "bytes": 8,
+      "sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d"
+    },
+    {
+      "path": "models/random_forest/metadata/.part-00000-aa988ba1-9706-4116-9c3c-2d4604bcd596-c000.txt.crc",
+      "bytes": 16,
+      "sha256": "f576f023d27638264ce886482c916ee62e24fe36702aa496ad2532561466ea6a"
+    },
+    {
+      "path": "models/random_forest/metadata/_SUCCESS",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "models/random_forest/metadata/part-00000-aa988ba1-9706-4116-9c3c-2d4604bcd596-c000.txt",
+      "bytes": 696,
+      "sha256": "c7e122a85d5ece1f8b3395bd5ac3723fe7a23ca8553de83bc62d32b732f2acac"
+    },
+    {
+      "path": "models/random_forest/treesMetadata/._SUCCESS.crc",
+      "bytes": 8,
+      "sha256": "1d44f510ec2ed7595badbec80583316defc14e8dd89130d719724149adfaa07d"
+    },
+    {
+      "path": "models/random_forest/treesMetadata/.part-00000-ca41457b-e09d-4b07-b478-043ceb2d80d2-c000.snappy.parquet.crc",
+      "bytes": 40,
+      "sha256": "0063fa51d72fb669daea0668eccd20b9d2bb08ed8b01dcf70fbb800a46147e31"
+    },
+    {
+      "path": "models/random_forest/treesMetadata/_SUCCESS",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "models/random_forest/treesMetadata/part-00000-ca41457b-e09d-4b07-b478-043ceb2d80d2-c000.snappy.parquet",
+      "bytes": 3987,
+      "sha256": "788bdfc17b4f35e270528fcb97dfbfbfade28899cc8db752e290587a138ebce3"
+    }
+  ]
+}

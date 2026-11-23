@@ -1,0 +1,13 @@
+# Keep the original input bytes stable for provenance SHA-256 on every platform.
+datasets/teacher/*.csv -text whitespace=cr-at-eol
+results/reference/** -text whitespace=cr-at-eol
+*.parquet binary
+*.png binary
+*.sh text eol=lf
+
+# Historical evidence hashes include original text bytes and line endings.
+data_hdfs_roundtrip/** -text whitespace=cr-at-eol
+deploy/hdfs-demo/** -text whitespace=cr-at-eol
+deploy/verification/** -text whitespace=cr-at-eol
+deploy/verification-data-20260914T120724782833Z/** -text whitespace=cr-at-eol
+deploy/verification-teacher/** -text whitespace=cr-at-eol

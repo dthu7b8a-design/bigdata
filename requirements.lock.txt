@@ -1,0 +1,29 @@
+# Validated with Python 3.13.15 on Windows, 2026-11-23.
+# Direct pins in requirements.txt are unchanged; this also pins resolved transitive dependencies.
+blinker==1.9.0
+certifi==2026.11.20
+cffi==2.1.1
+charset-normalizer==3.5.3
+click==8.5.1
+colorama==0.4.6
+cryptography==50.0.1
+Flask==3.1.3
+idna==3.20
+iniconfig==2.3.1
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.4
+numpy==2.5.3
+packaging==26.3
+pluggy==1.7.0
+py4j==0.10.9.9
+pycparser==3.12
+Pygments==2.21.0
+PyMySQL==1.2.0
+pyspark==4.2.0
+pytest==9.1.1
+python-dotenv==1.2.3
+requests==2.34.2
+scipy==1.18.1
+urllib3==2.8.0
+Werkzeug==3.1.9
