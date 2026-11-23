@@ -67,7 +67,7 @@ flowchart LR
 以下为 Windows PowerShell 示例。克隆到 ASCII 路径，并按本机安装位置配置 MySQL 8.0。此路径展示保存结果，不重新训练模型。
 
 ```powershell
-git clone -c core.longpaths=true --branch cleanup/bigdata-audit-20261123 https://github.com/dthu7b8a-design/bigdata.git C:\ev-insight
+git clone -c core.longpaths=true https://github.com/dthu7b8a-design/bigdata.git C:\ev-insight
 Set-Location C:\ev-insight
 py -3.13 -m venv .venv
 $python = (Resolve-Path .venv\Scripts\python.exe).Path

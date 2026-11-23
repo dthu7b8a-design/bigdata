@@ -22,7 +22,7 @@
 Windows PowerShell：
 
 ~~~powershell
-git clone -c core.longpaths=true --branch cleanup/bigdata-audit-20261123 https://github.com/dthu7b8a-design/bigdata.git C:\ev-insight
+git clone -c core.longpaths=true https://github.com/dthu7b8a-design/bigdata.git C:\ev-insight
 Set-Location C:\ev-insight
 py -3.13 -m venv .venv
 $python = (Resolve-Path .venv\Scripts\python.exe).Path
@@ -39,7 +39,7 @@ $env:BIGDATA_PYTHON_HOME = (Resolve-Path .venv).Path
 Linux shell：
 
 ~~~bash
-git clone -c core.longpaths=true --branch cleanup/bigdata-audit-20261123 https://github.com/dthu7b8a-design/bigdata.git
+git clone -c core.longpaths=true https://github.com/dthu7b8a-design/bigdata.git
 cd bigdata
 python3.13 -m venv .venv
 . .venv/bin/activate
